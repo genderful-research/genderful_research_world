@@ -1,22 +1,22 @@
 <template>
-    <h2>Which research phase are you in?</h2>
+    <h3>Which research phase are you in?</h3>
     <div>
     <b-form-checkbox
-        v-for="(car, index) in availableCars"
+        v-for="(phase, index) in availablePhases"
         :key="index"
-        v-model="selectedCars"
-        :value="car"
+        v-model="selectedPhases"
+        :value="phase"
     >
-        {{ car }}
+        {{ phase }}
     </b-form-checkbox>
     </div>
-    <div class="mt-2">Selected: <strong>{{ concatSelectedCars}}</strong></div>
+    <div class="mt-2">Selected: <strong>{{ concatSelectedPhases}}</strong></div>
 </template>
 
 <script lang="ts" setup>
   import {ref, computed} from 'vue'
 
-  const availableCars = [
+  const availablePhases = [
         'Funding',
         'Study population and sample size',
         'Data analysis',
@@ -24,9 +24,9 @@
         'Interpretation and translation to medical and health practice',
         'Research question and study design',
     ]
-  const selectedCars = ref([])
+  const selectedPhases = ref([])
 
-  const concatSelectedCars = computed(() => {
-    return selectedCars.value.join(', ')
+  const concatSelectedPhases = computed(() => {
+    return selectedPhases.value.join(', ')
   })
 </script>
