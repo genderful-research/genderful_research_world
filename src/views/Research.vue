@@ -8,15 +8,13 @@
       <div class="col">
           <h2>Research area</h2>
             {{ areas }}
-            <b-card>
-                <h3>Resources on the relevance</h3>
+            <b-card bg-variant="light" header="Resources on the relevance">
                 <ul>
                     <li>One</li>
                     <li>Two</li>
                 </ul>
             </b-card>
-            <b-card>
-                <h3>Resources on the best practices</h3>
+            <b-card bg-variant="light" header="Resources on the best practices">
                 <ul>
                     <li>One</li>
                     <li>Two</li>
