@@ -25,6 +25,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: frontend-only
-          path: public/
+          name: full-app
+          path: dist/
 
