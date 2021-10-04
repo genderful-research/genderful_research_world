@@ -21,26 +21,20 @@
 </script>
 
 <template>
-<div class="row">
-    <div class="col">
-        <h3>Search Results</h3>
-        <div v-for="resource in filteredResults" :key="resource">
-            <h4>{{ resource["Description"] }}</h4>
-            <p>Research phase: {{ resource["Research Phase"] }}</p>
-            <p><a :href="resource['Resource Suggestions']">{{ resource["Resource Suggestions"] }}</a></p>
-        </div>
+    <h2>Resource Filter</h2>
+    <b-form-checkbox-group
+        v-model="resourceFilterSelected"
+        :options="resourceFilterOptions"
+        class="mb-3"
+        value-field="item"
+        text-field="name"
+        disabled-field="notEnabled"
+    ></b-form-checkbox-group>
+
+    <h3>Search Results</h3>
+    <div v-for="resource in filteredResults" :key="resource">
+        <h4>{{ resource["Description"] }}</h4>
+        <p>Research phase: {{ resource["Research Phase"] }}</p>
+        <p>🔗 <a target="_blank" :href="resource['Resource Suggestions']">Link to the resource</a></p>
     </div>
-    <div class="col">
-        <h2>Resource Filter</h2>
-        <b-form-checkbox-group
-            v-model="resourceFilterSelected"
-            :options="resourceFilterOptions"
-            stacked
-            class="mb-3"
-            value-field="item"
-            text-field="name"
-            disabled-field="notEnabled"
-        ></b-form-checkbox-group>
-    </div>
-</div>
 </template>
