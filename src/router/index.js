@@ -32,7 +32,12 @@ const routes = [
       title: "Health Research",
       areas: ["Clinical", "Population"]
     }
-  }
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: () => import('../views/About.vue')
+  },
 ]
 
 const router = createRouter({
