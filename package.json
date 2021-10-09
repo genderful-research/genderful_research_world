@@ -12,6 +12,7 @@
     "bootstrap-vue-3": "^0.0.4",
     "core-js": "^3.6.5",
     "json-loader": "^0.5.7",
+    "marked": "^3.0.7",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0",
