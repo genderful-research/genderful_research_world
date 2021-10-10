@@ -16,9 +16,11 @@ home:
     As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
 biomedical_research:
   title: Biomedical Research
+  info: This category, also known as basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
   intro: Sex has historically been overlooked in many areas of biomedical research, with the assumption being that sex is not relevant in certain types of research, female hormonal fluctuations create too much variability to conduct rigorous research, or that the costs associated with conducting sex-based analyses is not worth the benefit. This section will highlight why these assumptions are incorrect, and how rigorous research can and should include consideration of sex. 
 health_research:
   title: Health Research
+  info: This category includes any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
   intro: Sex and gender represent a range of biological, psychological, and social factors that influence health behaviours, outcomes, and health systems delivery. This section will review why sex and gender are relevant to all stages of the clinical research process, and why integrating a focus on both sex and gender is key for rigorous, inclusive research.
 phases:
   - id: 1

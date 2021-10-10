@@ -1,0 +1,49 @@
+general:
+  definition:
+    question: Do you know what sex and gender are?
+    yes: go somwhere
+    no: go somewhere else
+  relevance:
+    question: Do you know the relevance of accounting for sex/gender in biomedical and health research?
+    yes: go somwhere
+    no: go somewhere else
+definitions:
+  title: What are the definitions for sex and gender?
+  questions:
+    - question: Sex and gender are always the same thing.
+      answer: false
+    - question: Sex should not be used in the context of research as it means sexual intercourse.
+      answer: false
+    - question: Sex refers to biological attributes in humans and animals, while gender refers to socially constructed roles, behaviors, expressions and identities.
+      answer: true
+    - question: Gender refers to biological attributes in humans and animals, while sex refers to socially constructed roles, behaviors, expressions and identities.
+      answer: false
+    - question: Sex and gender are two separate definitions that do not influence each other.
+      answer: false
+    - question: Sex is always defined as sex given at birth.
+      answer: false
+    - question: Sex and gender approach in research is beneficial for both men and women.
+      answer: true
+    - question: Gender is a concept that cannot be objectively measured.
+      answer: false
+relevance:
+  title: What are the relevance of accounting for sex/gender in biomedical and health research?
+  questions:
+    - question: Taking a sex-specific approach leads to discrimination
+      answer: false
+    - question: Performing sex-specific research costs more money
+      answer: false
+    - question: Gender concept as in humans do not apply directly to animals
+      answer: true
+    - question: Female inclusion in animal experiments increase variability
+      answer: false
+    - question: Sex awareness is unimportant to in vitro studies
+      answer: false
+    - question: Excluding women from clinical studies is always necessary to protect their fertility
+      answer: false
+    - question: Reporting sex differences should only be mentioned when significant
+      answer: false
+    - question: Patient gender influences the treatment efficiency
+      answer: true
+    - question: Healthcare professional gender does not influence patient care
+      answer: false
