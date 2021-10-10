@@ -7,6 +7,7 @@ import content from '@/assets/content.yml';
     <ul class="timeline">
         <li v-for="phase in content.phases" :key="phase.id">
             <h5>{{ phase.name }}</h5>
+            <p>{{ phase.summary }}</p>
         </li>
     </ul>
 </template>

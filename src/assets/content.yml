@@ -1,11 +1,17 @@
 about:
   intro_title: Genderful Research Consortium (GRC)
-  intro_body: We are a group of multidisciplinary scientists (from biomedical to clinical and public health researchers) with different research focus with the common goal to perform and promote sex/gender-inclusive research.
+  intro_body: |
+    We are a group of multidisciplinary scientists (from biomedical to clinical and public health researchers) with different research focus with the common goal to perform and promote sex/gender-inclusive research.
 home:
   title: Genderful Research World
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
+    ### Audience
+
     Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research.
+
+    ### Why
+
     Currently, many initiatives and key resources exist to support researchers, including resource lists, online checklists, fact sheets and training modules. However, such resources can be hard to find, busy and overwhelming. As a result, finding relevant resources can be too time consuming and not meeting researchers’ needs. The platform has the goal to provide an overview of key resources per research stage or phase of biomedical, clinical and public health research. Resources were identified and selected by a rapid review performed by our group, with a special focus on resources affiliated with CIHR Institute for Gender and Health (CIHR-IGH) and the European Gendered Innovations project.
     As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
 phases:
@@ -21,7 +27,11 @@ phases:
     name: Data Interpretation and Translation to Practice
   - id: 6
     name: Funding
+    info: This section reviews information regarding the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
+    summary: Applying a sex and gender lens is increasingly becoming a requirement within funding agencies to encourage all applicants to consider how sex- and gender-based analyses might be relevant to their project. This section will provide resources on how researchers can prepare their application to address these issues, even if investigating sex and gender is not a primary goal of their research.
   - id: 7
     name: Team Assembly
+    info: This section reviews information relevant to the assembly and composition of research teams, i.e., who is represented on the team.
+    summary: Research has suggested that diversity on teams is a key predictor of success, but women and gender-diverse individuals tend to be underrepresented in many areas of science, particularly in leadership positions. Research has also shown that women are more likely to use sex- and gender-based analyses in their research. This section will review information on how to ensure diverse representation on research teams and why it is important.
   - id: 8
     name: Case Studies
