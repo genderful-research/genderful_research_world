@@ -1,9 +1,20 @@
+<script setup>
+import content from '@/assets/content.yml';
+// import marked from "marked"
+import defineProps from "vue"
+defineProps({
+  research_type: String,
+  areas: Array
+})
+
+</script>
+
 <template>
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>{{ title }}</h1>
-        <p>Intro</p>
+        <h1>{{ content[research_type]["title"] }}</h1>
+        <p>{{ content[research_type]["intro"] }}</p>
       </div>
       <div class="col">
           <h2>Research area</h2>
@@ -25,12 +36,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-    props: {
-        title: String,
-        areas: Array
-    }
-}
-</script>

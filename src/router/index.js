@@ -19,8 +19,8 @@ const routes = [
     path: '/research/biomedical',
     name: 'Biomedical Research',
     component: () => import('../views/Research.vue'),
-    props: { 
-      title: "Biomedical Research",
+    props: {
+      research_type: "biomedical_research",
       areas: ["In vitro", "In vivo"]
     }
   },
@@ -29,7 +29,7 @@ const routes = [
     name: 'Health Research',
     component: () => import('../views/Research.vue'),
     props: { 
-      title: "Health Research",
+      research_type: "health_research",
       areas: ["Clinical", "Population"]
     }
   },

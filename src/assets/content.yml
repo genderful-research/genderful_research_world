@@ -14,6 +14,12 @@ home:
 
     Currently, many initiatives and key resources exist to support researchers, including resource lists, online checklists, fact sheets and training modules. However, such resources can be hard to find, busy and overwhelming. As a result, finding relevant resources can be too time consuming and not meeting researchers’ needs. The platform has the goal to provide an overview of key resources per research stage or phase of biomedical, clinical and public health research. Resources were identified and selected by a rapid review performed by our group, with a special focus on resources affiliated with CIHR Institute for Gender and Health (CIHR-IGH) and the European Gendered Innovations project.
     As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
+biomedical_research:
+  title: Biomedical Research
+  intro: Sex has historically been overlooked in many areas of biomedical research, with the assumption being that sex is not relevant in certain types of research, female hormonal fluctuations create too much variability to conduct rigorous research, or that the costs associated with conducting sex-based analyses is not worth the benefit. This section will highlight why these assumptions are incorrect, and how rigorous research can and should include consideration of sex. 
+health_research:
+  title: Health Research
+  intro: Sex and gender represent a range of biological, psychological, and social factors that influence health behaviours, outcomes, and health systems delivery. This section will review why sex and gender are relevant to all stages of the clinical research process, and why integrating a focus on both sex and gender is key for rigorous, inclusive research.
 phases:
   - id: 1
     name: Introduction and terminology
