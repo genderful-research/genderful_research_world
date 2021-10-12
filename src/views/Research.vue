@@ -1,7 +1,7 @@
 <script setup>
 import content from '@/assets/content.yml';
 // import marked from "marked"
-import defineProps from "vue"
+import {defineProps} from "vue"
 defineProps({
   research_type: String,
   areas: Array
