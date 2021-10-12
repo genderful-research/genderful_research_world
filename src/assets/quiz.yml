@@ -1,12 +1,8 @@
 general:
-  definition:
-    question: Do you know what sex and gender are?
-    yes: go somwhere
-    no: go somewhere else
-  relevance:
-    question: Do you know the relevance of accounting for sex/gender in biomedical and health research?
-    yes: go somwhere
-    no: go somewhere else
+  title: Definitions
+  questions:
+    - question: Do you know what sex and gender are?
+    - question: Do you know the relevance of accounting for sex/gender in biomedical and health research?
 definitions:
   title: What are the definitions for sex and gender?
   questions:
