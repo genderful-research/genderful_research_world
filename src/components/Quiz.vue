@@ -12,6 +12,7 @@ import Question from './Question.vue';
 </script>
 
 <template>
+{{ this.$store }}
   <div class="container">
     <div class="row">
       <div class="col">
