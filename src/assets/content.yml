@@ -1,3 +1,7 @@
+navigation:
+  about: About
+  research: Research
+  quiz: Quiz
 about:
   intro_title: Genderful Research Consortium (GRC)
   intro_body: |
@@ -22,6 +26,16 @@ health_research:
   title: Health Research
   info: This category includes any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
   intro: Sex and gender represent a range of biological, psychological, and social factors that influence health behaviours, outcomes, and health systems delivery. This section will review why sex and gender are relevant to all stages of the clinical research process, and why integrating a focus on both sex and gender is key for rigorous, inclusive research.
+funding:
+  name: Funding
+  info: This section reviews information regarding the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
+  summary: Applying a sex and gender lens is increasingly becoming a requirement within funding agencies to encourage all applicants to consider how sex- and gender-based analyses might be relevant to their project. This section will provide resources on how researchers can prepare their application to address these issues, even if investigating sex and gender is not a primary goal of their research.
+team_assembly:
+  name: Team Assembly
+  info: This section reviews information relevant to the assembly and composition of research teams, i.e., who is represented on the team.
+  summary: Research has suggested that diversity on teams is a key predictor of success, but women and gender-diverse individuals tend to be underrepresented in many areas of science, particularly in leadership positions. Research has also shown that women are more likely to use sex- and gender-based analyses in their research. This section will review information on how to ensure diverse representation on research teams and why it is important.
+case_studies:
+    name: Case Studies
 phases:
   - id: 1
     name: Introduction and terminology
@@ -33,13 +47,3 @@ phases:
     name: Data Collection and Analysis
   - id: 5
     name: Data Interpretation and Translation to Practice
-  - id: 6
-    name: Funding
-    info: This section reviews information regarding the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
-    summary: Applying a sex and gender lens is increasingly becoming a requirement within funding agencies to encourage all applicants to consider how sex- and gender-based analyses might be relevant to their project. This section will provide resources on how researchers can prepare their application to address these issues, even if investigating sex and gender is not a primary goal of their research.
-  - id: 7
-    name: Team Assembly
-    info: This section reviews information relevant to the assembly and composition of research teams, i.e., who is represented on the team.
-    summary: Research has suggested that diversity on teams is a key predictor of success, but women and gender-diverse individuals tend to be underrepresented in many areas of science, particularly in leadership positions. Research has also shown that women are more likely to use sex- and gender-based analyses in their research. This section will review information on how to ensure diverse representation on research teams and why it is important.
-  - id: 8
-    name: Case Studies
