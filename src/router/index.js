@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import content from '@/assets/content.yml';
 
 const routes = [
   {
@@ -10,11 +11,26 @@ const routes = [
   {
     path: '/quiz',
     name: 'Quiz',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Quiz.vue')
+    component: () => import('../views/Quiz.vue')
   },
+  {
+    path: '/funding',
+    name: content.navigation.funding,
+    component: () => import('../views/Default.vue'),
+    props: {
+      title: content.funding.title,
+      content: content.funding.body,
+    }
+  },
+  {
+    path: '/assembling_teams',
+    name: content.navigation.funding,
+    component: () => import('../views/Default.vue'),
+    props: {
+      title: content.team_assembly.title,
+      content: content.team_assembly.body,
+    }
+  },  
   {
     path: '/research/biomedical',
     name: 'Biomedical Research',
@@ -34,10 +50,23 @@ const routes = [
     }
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
+    path: '/case_studies',
+    name: content.case_studies.title,
+    component: () => import('../views/Default.vue'),
+    props: {
+      title: content.case_studies.title,
+      content: content.case_studies.body,
+    }
   },
+  {
+    path: '/about',
+    name: content.navigation.about,
+    component: () => import('../views/Default.vue'),
+    props: {
+      title: content.about.title,
+      content: content.about.body,
+    }
+  },  
 ]
 
 const router = createRouter({

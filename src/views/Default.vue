@@ -1,12 +1,17 @@
 <script setup>
-import content from '@/assets/content.yml';
 import marked from "marked"
+import {defineProps} from "vue"
+defineProps({
+  title: String,
+  content: String,
+})
 </script>
 <template>
   <div class="container">
     <div class="row">
       <div class="col">
-          <div v-html="marked(content.about.intro_body)"></div>
+          <h1>{{ title }}</h1>
+          <div v-html="marked(content)"></div>
       </div>
     </div>
   </div>
