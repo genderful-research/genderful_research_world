@@ -6,14 +6,7 @@ home:
   title: Genderful Research World
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
-    ### Audience
-
-    Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research.
-
-    ### Why
-
-    Currently, many initiatives and key resources exist to support researchers, including resource lists, online checklists, fact sheets and training modules. However, such resources can be hard to find, busy and overwhelming. As a result, finding relevant resources can be too time consuming and not meeting researchers’ needs. The platform has the goal to provide an overview of key resources per research stage or phase of biomedical, clinical and public health research. Resources were identified and selected by a rapid review performed by our group, with a special focus on resources affiliated with CIHR Institute for Gender and Health (CIHR-IGH) and the European Gendered Innovations project.
-    As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
+    Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research. As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
 biomedical_research:
   title: Biomedical Research
   info: This category, also known as basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
@@ -37,7 +30,22 @@ case_studies:
 about:
   title: Genderful Research Consortium (GRC)
   body: |
-    We are a group of multidisciplinary scientists (from biomedical to clinical and public health researchers) with different research focus with the common goal to perform and promote sex/gender-inclusive research.
+    Currently, many initiatives and key resources exist to support researchers, including resource lists, online checklists, fact sheets and training modules. However, such resources can be hard to find, busy and overwhelming. As a result, finding relevant resources can be too time consuming and not meeting researchers’ needs. The platform has the goal to provide an overview of key resources per research stage or phase of biomedical, clinical and public health research. Resources were identified and selected by a rapid review performed by our group, with a special focus on resources affiliated with CIHR Institute for Gender and Health (CIHR-IGH) and the European Gendered Innovations project.
+
+    ### Aim
+
+    Our aim is to support scientists in health who are looking for resources on how to integrate sex and gender into their own research.
+
+    ### Research team
+
+    Genderful Research Consortium (GRC): We are a group of multidisciplinary scientists (from biomedical to clinical and public health researchers) focusing in (very) different research topics with the common goal to perform and promote sex/gender-inclusive research. The consortium came together after the members were awarded with the ZonMw Gender in Research Fellowship.
+
+    ### Funded by
+
+    ZonMw (Netherlands) and CIHR-IGH (Canada)
+funded_by:
+  title: Funded by
+  body: ZonMw (Netherlands) and CIHR-IGH (Canada)
 phases:
   - id: 1
     name: Introduction and terminology

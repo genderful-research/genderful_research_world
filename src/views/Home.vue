@@ -1,7 +1,7 @@
 <script setup>
 import content from '@/assets/content.yml';
-import ResearchRoad from "../components/ResearchRoad.vue";
 import marked from "marked"
+import FundedBy from '../components/FundedBy.vue';
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import marked from "marked"
         <div v-html="marked(content.home.intro_body)"></div>
       </div>
        <div class="col-4">
-          <ResearchRoad/>
+          <FundedBy/>
        </div>
     </div>
   </div>

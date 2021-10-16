@@ -9,9 +9,11 @@ defineProps({
 <template>
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-8" >
           <h1>{{ title }}</h1>
           <div v-html="marked(content)"></div>
+      </div>
+      <div class="col">
       </div>
     </div>
   </div>
