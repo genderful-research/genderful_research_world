@@ -41,13 +41,9 @@ const routes = [
     }
   },
   {
-    path: '/research/health',
-    name: 'Health Research',
+    path: '/research',
+    name: 'Research Road',
     component: () => import('../views/Research.vue'),
-    props: { 
-      research_type: "health_research",
-      areas: ["Clinical", "Population"]
-    }
   },
   {
     path: '/case_studies',

@@ -7,6 +7,9 @@ home:
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
     Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research. As we aim to simplify the different research phases/stages and types of medical research, click on the ℹ️ for more information about what is included in each section.
+research:
+  title: Research road
+  body: Before you hit the road, it is very important that the concepts of gender and sex are clear and correct to you. Take a quiz to test your knowledge in the definitions.
 biomedical_research:
   title: Biomedical Research
   info: This category, also known as basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.

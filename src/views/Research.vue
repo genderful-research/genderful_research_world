@@ -1,37 +1,19 @@
 <script setup>
 import content from '@/assets/content.yml';
+import ResearchRoad from '../components/ResearchRoad.vue';
 // import marked from "marked"
-import {defineProps} from "vue"
-defineProps({
-  research_type: String,
-  areas: Array
-})
 
 </script>
 
 <template>
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h1>{{ content[research_type]["title"] }}</h1>
-        <p>{{ content[research_type]["intro"] }}</p>
+      <div class="col-md-8">
+        <h1>{{ content.research.title }}</h1>
+        <p>{{ content.research.body }}</p>
       </div>
       <div class="col">
-          <h2>Research area</h2>
-            {{ areas }}
-            <b-card bg-variant="light" header="Resources on the relevance">
-                <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                </ul>
-            </b-card>
-            <b-card bg-variant="light" header="Resources on the best practices">
-                <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
-                </ul>
-            </b-card>
+        <ResearchRoad/>
       </div>
     </div>
   </div>

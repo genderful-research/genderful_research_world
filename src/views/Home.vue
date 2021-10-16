@@ -7,12 +7,12 @@ import FundedBy from '../components/FundedBy.vue';
 <template>
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-8">
         <h1>{{ content.home.title }}</h1>
         <p>{{ content.home.subtitle }}</p>
         <div v-html="marked(content.home.intro_body)"></div>
       </div>
-       <div class="col-4">
+       <div class="col-md-4">
           <FundedBy/>
        </div>
     </div>
