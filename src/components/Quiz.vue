@@ -12,13 +12,13 @@ import Question from './Question.vue';
 </script>
 
 <template>
-{{ this.$store }}
   <div class="container">
     <div class="row">
       <div class="col">
           <div v-for="section in quiz" :key="section.title">
               <h4>{{ section.title }}</h4>
               <p v-for="item in section.questions" :key="item.question">
+                {{ item.answer }}
                   <Question :item="item"/>
               </p>
           </div>

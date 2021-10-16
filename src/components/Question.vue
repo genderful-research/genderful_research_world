@@ -10,8 +10,8 @@ const store = useStore()
 const answers = computed(() => store.state.answers)
 const storeAnswer = (item) => store.dispatch('addAnswer', item)
 const yesno = [
-    {text: 'Yes', value: 'yes'},
-    {text: 'No', value: 'no'},
+    {text: 'True', value: 'true'},
+    {text: 'False', value: 'false'},
 ]
 </script>
 
@@ -19,6 +19,7 @@ const yesno = [
 <p>{{ answers }}</p>
 
     <p>{{ item.question }}</p>
+    <p>{{ item }}</p>
     <b-button-group>
         <b-button
             v-for="answer in yesno"

@@ -1,45 +1,74 @@
-general:
-  title: Definitions
-  questions:
-    - question: Do you know what sex and gender are?
-    - question: Do you know the relevance of accounting for sex/gender in biomedical and health research?
 definitions:
   title: What are the definitions for sex and gender?
   questions:
-    - question: Sex and gender are always the same thing.
-      answer: false
-    - question: Sex should not be used in the context of research as it means sexual intercourse.
-      answer: false
-    - question: Sex refers to biological attributes in humans and animals, while gender refers to socially constructed roles, behaviors, expressions and identities.
-      answer: true
-    - question: Gender refers to biological attributes in humans and animals, while sex refers to socially constructed roles, behaviors, expressions and identities.
-      answer: false
-    - question: Sex and gender are two separate definitions that do not influence each other.
-      answer: false
-    - question: Sex is always defined as sex given at birth.
-      answer: false
-    - question: Sex and gender approach in research is beneficial for both men and women.
-      answer: true
-    - question: Gender is a concept that cannot be objectively measured.
-      answer: false
+    - id: "definition-q-1"
+      question: Sex and gender are always the same thing.
+      correct_answer: false
+      explanation: Incorrect. Sex refers to sets of biological traits of people and animals. It is associated with physical, psychological (chromosomes, gene-expression, hormone levels/functions and reproductive and sexual anatomy. It is often divided into men and women, while gender refers to a more complex interplay between socially constructed roles, behaviors, expressions and identities of girls, women, men, boys and gender diverse people. They are not the same, but they can interact with each other.
+    - id: "definition-q-2"
+      question: Sex should not be used in the context of research as it means sexual intercourse.
+      correct_answer: false
+      explanation: Incorrect. Sex can mean sexual intercourse or it can mean the biological differences between men and women (see answer question 1). The fact that it has two meanings should never be the argument to avoid sex sensitive research, avoid reporting on sex differences or use the word gender incorrectly.
+    - id: "definition-q-3"
+      question: Sex refers to biological attributes in humans and animals, while gender refers to socially constructed roles, behaviors, expressions and identities.
+      correct_answer: true
+      explanation: Correct. See answer question 1.
+    - id: "definition-q-4"
+      question: Gender refers to biological attributes in humans and animals, while sex refers to socially constructed roles, behaviors, expressions and identities.
+      correct_answer: false
+      explanation: Incorrect. Gender refers to the complex interplay of concepts, among which societal position, but also behaviors, expressions, identities. See answer question 1.
+    - id: "definition-q-5"
+      question: Sex and gender are two separate definitions that do not influence each other.
+      correct_answer: false
+      explanation: Incorrect. Although there are two difference definitions for sex an gender, they can interact and influence with each other. To give an example. Sex refers to biological traits, such as gene-expresison. Gene-expression is influenced by epigenetic regulation, which can be changed by certain lifestyle choices such as smoking. The behavior of smoking is influenced by gender roles in society (gender) , which thereby via epigentic regulation can influence gene-experssion (sex).
+    - id: "definition-q-6"
+      question: Sex is always defined as sex given at birth.
+      correct_answer: false
+      explanation:
+    - id: "definition-q-7"
+      question: Sex and gender approach in research is beneficial for both men and women.
+      correct_answer: true
+      explanation: Incorrect. Sex refers to the biolgoical attributes in humans and animals and can be devided differently depending on the situation. Sex can also be defined as chromosomal situation (XX/XY), which can differ from sex defined at birth due to mutations in the SRY gene (development of external genetalia). In public health and clincinal research, sex is often dinfed as sex given at birth, but be aware that other optoins are possible.
+    - id: "definition-q-8"
+      question: Gender is a concept that cannot be objectively measured.
+      correct_answer: false
+      explanation: Correct. Research best tailored to their target population gives the most precise knowledge. Taking the average of men and women in research leads to a less correct estimate for both men and women.
 relevance:
   title: What are the relevance of accounting for sex/gender in biomedical and health research?
   questions:
-    - question: Taking a sex-specific approach leads to discrimination
-      answer: false
-    - question: Performing sex-specific research costs more money
-      answer: false
-    - question: Gender concept as in humans do not apply directly to animals
-      answer: true
-    - question: Female inclusion in animal experiments increase variability
-      answer: false
-    - question: Sex awareness is unimportant to in vitro studies
-      answer: false
-    - question: Excluding women from clinical studies is always necessary to protect their fertility
-      answer: false
-    - question: Reporting sex differences should only be mentioned when significant
-      answer: false
-    - question: Patient gender influences the treatment efficiency
-      answer: true
-    - question: Healthcare professional gender does not influence patient care
-      answer: false
+    - id: "relevance-q-1"
+      question: Taking a sex-specific approach leads to discrimination
+      correct_answer: false
+      explanation: Incorrect. By accounting for sex in biomedical and health research, scientists are contributing for a more equal/balanced healthcare, also improving the rigor, reproducibilty and generalization of science. Due to equity based health care (recognizing that not everybody benefits from the same care) we will avoid discrimination.
+    - id: "relevance-q-2"
+      question: Performing sex-specific research costs more money
+      correct_answer: false
+      explanation: Incorrect. In the short term, it may seems more costly and it can be, however, not accounting for sex differences along the different research phases will lead to a failure in efficacy of treatment/healthcare in the long term, which costs more money. To illustrate, performing sex-specific analysis on the side effects of the covid vaccination during the trails could have avoided the suprise of side effects among women compared to men. The latter cost much more money.
+    - id: "relevance-q-3"
+      question: Gender concept as in humans do not apply directly to animals
+      correct_answer: true
+      explanation: Correct. Gender is defined as socially constructed roles, behaviours, expressions and identities from girls, women, boys, men and gender-diverse people. This definition does not directly apply to animals since they do not have such a societal environment as humans do.
+    - id: "relevance-q-4"
+      question: Female inclusion in animal experiments increase variability
+      correct_answer: false
+      explanation: Incorrect. That was a misconception common across the scientific community, which was based on the sex hormone fluctuation (Prendergast, Onishi et al. 2014, Becker, Prendergast et al. 2016, Beery 2018). It turns out males tend to have higher variation, which can be linked to external stressors related to the expression of dominance and power dynamics inherent to males.
+    - id: "relevance-q-5"
+      question: Sex awareness is unimportant to in vitro studies
+      correct_answer: false
+      explanation: Incorrect. Depending on what cell types used for in vitro studies (primary cells, cell lines), different details might need to be taken in consideration. Until now, there has been an overlook on the sex of cells being used. Resources on Analyzing Sex in Tissues and Cells can be found here (link to http://genderedinnovations.stanford.edu/methods/tissues.html - also in the google sheet).
+    - id: "relevance-q-6"
+      question: Excluding women from clinical studies is always necessary to protect their fertility
+      correct_answer: false
+      explanation: Incorrect. This was a common understanding for clinical studies in the past decades. However, by excluding women from clinical studies there is an increased risk on fertility since these side effects will not be discovered during clinical trials before going to the market. 
+    - id: "relevance-q-7"
+      question: Reporting sex differences should only be mentioned when significant
+      correct_answer: false
+      explanation: Incorrect. Mentioning that no sex differences were observed is also relevant, as it will prevent future studies to investigate these sex differences.
+    - id: "relevance-q-8"
+      question: Patient gender influences the treatment efficiency
+      correct_answer: true
+      explanation: Correct. The patient's gender influences treatment adherence and side effects due to motivational and stress differences.
+    - id: "relevance-q-9"
+      question: Healthcare professional gender does not influence patient care
+      correct_answer: false
+      explanation: Incorrect. The gender of the healthcare profession can have a great influence on patient care in multiple dimensions, among which how the patient perceives care, the type of complaints shared with professionals (graph) and even delay visit to the doctor because he/she is of other sex.
