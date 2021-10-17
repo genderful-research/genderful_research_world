@@ -24,11 +24,11 @@ definitions:
     - id: "definition-q-6"
       question: Sex is always defined as sex given at birth.
       correct_answer: false
-      explanation:
+      explanation: Incorrect. Sex refers to the biolgoical attributes in humans and animals and can be devided differently depending on the situation. Sex can also be defined as chromosomal situation (XX/XY), which can differ from sex defined at birth due to mutations in the SRY gene (development of external genetalia). In public health and clincinal research, sex is often dinfed as sex given at birth, but be aware that other optoins are possible.
     - id: "definition-q-7"
       question: Sex and gender approach in research is beneficial for both men and women.
       correct_answer: true
-      explanation: Incorrect. Sex refers to the biolgoical attributes in humans and animals and can be devided differently depending on the situation. Sex can also be defined as chromosomal situation (XX/XY), which can differ from sex defined at birth due to mutations in the SRY gene (development of external genetalia). In public health and clincinal research, sex is often dinfed as sex given at birth, but be aware that other optoins are possible.
+      explanation: Correct. Research best tailored to their target population gives the most precise knowledge. Taking the average of men and women in research leads to a less correct estimate for both men and women.
     - id: "definition-q-8"
       question: Gender is a concept that cannot be objectively measured.
       correct_answer: false
