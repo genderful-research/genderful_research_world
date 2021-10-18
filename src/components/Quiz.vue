@@ -24,5 +24,5 @@ import Question from './Question.vue';
           </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
