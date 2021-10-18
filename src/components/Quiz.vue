@@ -1,14 +1,6 @@
 <script setup>
 import quiz from '@/assets/quiz.yml';
-// import {ref} from 'vue'
 import Question from './Question.vue';
-// const buttonsSelected = ref()
-// const question = {
-//     text: "Do you know what sex and gender are?",
-//     id: "one",
-// }
-
-
 </script>
 
 <template>
