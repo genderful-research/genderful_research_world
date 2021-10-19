@@ -4,7 +4,7 @@ definitions:
     - id: "definition-q-1"
       question: Sex and gender are always the same thing.
       correct_answer: false
-      explanation: Incorrect. Sex refers to sets of biological traits of people and animals. It is associated with physical, psychological (chromosomes, gene-expression, hormone levels/functions and reproductive and sexual anatomy. It is often divided into men and women, while gender refers to a more complex interplay between socially constructed roles, behaviors, expressions and identities of girls, women, men, boys and gender diverse people. They are not the same, but they can interact with each other.
+      explanation: This is false. Sex refers to sets of biological traits of people and animals. It is associated with physical, psychological (chromosomes, gene-expression, hormone levels/functions and reproductive and sexual anatomy. It is often divided into men and women, while gender refers to a more complex interplay between socially constructed roles, behaviors, expressions and identities of girls, women, men, boys and gender diverse people. They are not the same, but they can interact with each other. 
     - id: "definition-q-2"
       question: Sex should not be used in the context of research as it means sexual intercourse.
       correct_answer: false
