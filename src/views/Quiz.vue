@@ -13,13 +13,14 @@ const resetQuiz = () => store.commit('resetQuiz')
       <div class="col">
         <h1>Quiz</h1>
         <p>Are you sure you know it all? Test yourself</p>
+        <Quiz :section="'definitions'" />
+      </div>
+      <div class="col-md-3">
         <p>
           Total answered: {{ totalAnswered }}
-          <b-button v-if="totalAnswered" @click.stop="resetQuiz">Reset quiz</b-button>
+          <b-button :disabled="!totalAnswered" @click.stop="resetQuiz">Reset quiz</b-button>
         </p>
-
       </div>
     </div>
   </div>
-  <Quiz/>
 </template>

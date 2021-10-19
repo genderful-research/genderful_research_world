@@ -3,7 +3,8 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    answers: {}
+    answers: {},
+    currentQuestionNumber: 1
   },
   getters: {
     totalAnswered(state) {
@@ -14,7 +15,8 @@ export default createStore({
         return state.answers[id]
       }
       return false
-    } 
+    },
+    currentQuestionNumber: (state) => state.currentQuestionNumber
   },
   mutations: {
     setAnswer (state, answer) {
@@ -29,6 +31,10 @@ export default createStore({
     },
     resetQuiz(state) {
       state.answers = {}
+      state.currentQuestionNumber = 1
+    },
+    updateQuestionNumber(state) {
+      state.currentQuestionNumber = state.currentQuestionNumber + 1
     }
   },
   actions: {
