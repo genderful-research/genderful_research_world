@@ -55,7 +55,7 @@ relevance:
     - id: "relevance-q-5"
       question: Sex awareness is unimportant to in vitro studies
       correct_answer: false
-      explanation: This is false. Depending on what cell types used for in vitro studies (primary cells, cell lines), different details might need to be taken in consideration. Until now, there has been an overlook on the sex of cells being used. Resources on Analyzing Sex in Tissues and Cells can be found here (link to http://genderedinnovations.stanford.edu/methods/tissues.html).
+      explanation: This is false. Depending on what cell types used for in vitro studies (primary cells, cell lines), different details might need to be taken in consideration. Until now, there has been an overlook on the sex of cells being used. Resources on Analyzing Sex in Tissues and Cells can be found here [Analyzing Sex in Tissues and Cells](https://genderedinnovations.stanford.edu/methods/tissues.html).
     - id: "relevance-q-6"
       question: Excluding women from clinical studies is always necessary to protect their fertility
       correct_answer: false
