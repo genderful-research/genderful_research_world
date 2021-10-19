@@ -12,7 +12,11 @@ const totalAnswered = computed(() => store.getters.totalAnswered)
       <div class="col">
         <h1>Quiz</h1>
         <p>Are you sure you know it all? Test yourself</p>
-        <p>Total answered: {{ totalAnswered }}</p>
+        <p>
+          Total answered: {{ totalAnswered }}
+          <b-button v-if="totalAnswered" @click.stop="this.$store.commit('resetQuiz')">Reset quiz</b-button>
+        </p>
+
       </div>
     </div>
   </div>

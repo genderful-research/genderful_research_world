@@ -23,12 +23,18 @@ export default createStore({
         correct: answer.answer == answer.item.correct_answer,
       }
       state.answers = {...state.answers}
+    },
+    restoreAnswers(state, answers) {
+      state.answers = answers
+    },
+    resetQuiz(state) {
+      state.answers = {}
     }
   },
   actions: {
-    addAnswer ({ commit }, answer) {
-      console.log(answer)
+    addAnswer ({ state, commit }, answer) {
       commit('setAnswer', answer)
+      localStorage.setItem('quiz', JSON.stringify(state.answers));
     }
   },
   modules: {

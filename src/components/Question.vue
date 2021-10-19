@@ -1,6 +1,14 @@
 <script setup>
 import { defineProps } from "vue"
 import { useStore } from 'vuex'
+import marked from "marked"
+const renderer = new marked.Renderer();
+const linkRenderer = renderer.link;
+renderer.link = (href, title, text) => {
+  const localLink = href.startsWith(`${location.protocol}//${location.hostname}`);
+  const html = linkRenderer.call(renderer, href, title, text);
+  return localLink ? html : html.replace(/^<a /, `<a target="_blank" `);
+};
 
 defineProps({
   item: Object,
@@ -23,9 +31,7 @@ const yesno = [
         <p class="text-success" v-if="selected(item)['correct']">
             The answer was correct!
         </p>
-        <p class="text-danger" v-else>
-            {{ item.explanation }}
-        </p>
+        <div class="text-danger" v-else v-html="marked(item.explanation, {renderer})"/>
     </div>
     <div v-else>
         <b-button-group>
