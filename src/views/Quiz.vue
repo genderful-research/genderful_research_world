@@ -4,6 +4,7 @@ import { computed } from "vue"
 import { useStore } from 'vuex'
 const store = useStore()
 const totalAnswered = computed(() => store.getters.totalAnswered)
+const resetQuiz = () => store.commit('resetQuiz')
 </script>
 
 <template>
@@ -14,7 +15,7 @@ const totalAnswered = computed(() => store.getters.totalAnswered)
         <p>Are you sure you know it all? Test yourself</p>
         <p>
           Total answered: {{ totalAnswered }}
-          <b-button v-if="totalAnswered" @click.stop="this.$store.commit('resetQuiz')">Reset quiz</b-button>
+          <b-button v-if="totalAnswered" @click.stop="resetQuiz">Reset quiz</b-button>
         </p>
 
       </div>
