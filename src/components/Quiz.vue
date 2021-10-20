@@ -27,7 +27,7 @@ const currentQuestion = (number) => questions.find(obj => { return obj.number ==
     </transition>
 </template>
 
-<style scoped>
+<style>
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.7s ease;

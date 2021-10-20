@@ -12,7 +12,6 @@ const resetQuiz = () => store.commit('resetQuiz')
     <div class="row">
       <div class="col">
         <h1>Quiz</h1>
-        <p>Are you sure you know it all? Test yourself</p>
         <Quiz :section="'definitions'" />
       </div>
       <div class="col-md-3">
