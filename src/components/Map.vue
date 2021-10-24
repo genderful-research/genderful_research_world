@@ -1,4 +1,5 @@
 <script setup>
+// Created map elements with https://zaneray.com/responsive-image-map/
 import { Popover } from 'bootstrap/dist/js/bootstrap.esm.min.js'
 import { onMounted } from 'vue'
     onMounted(() => {
