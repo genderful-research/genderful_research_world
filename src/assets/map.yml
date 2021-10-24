@@ -14,13 +14,21 @@
   width: 16.36
   height: 18.14
 
-- title: Health research road
-  body: Data collection and analysis
-  href: /research/health/data-collection-and-analyis
-  left: 82.01
-  top: 41.15
-  width: 7.69
-  height: 7.03
+- title: Funding
+  href: /funding
+  left: 23.93
+  top: 38.96
+  width: 12.6
+  height: 12.7
+
+- title: Literature lakes
+  body: Not yet there
+  left: 25.54
+  top: 53.38
+  width: 14.96
+  height: 12.23
+
+### Health
 
 - title: Health Research mountains
   href: /research/health
@@ -29,20 +37,13 @@
   width: 12.38
   height: 4.53
 
-- title: Biomedical Research alley
-  href: /research/biomedical
-  left: 9.25
-  top: 61.22
-  width: 10.08
-  height: 5.74
-
-
-- title: Funding
-  href: /funding
-  left: 23.93
-  top: 38.96
-  width: 12.6
-  height: 12.7
+- title: Health research road
+  body: Data collection and analysis
+  href: /research/health/data-collection-and-analyis
+  left: 82.01
+  top: 41.15
+  width: 7.69
+  height: 7.03
 
 - title: Health research road
   body: Study population and sample size
@@ -60,9 +61,26 @@
   width: 10.08
   height: 5.74
 
+- title: Health research road
+  body: Research question and design
+  href: /research/health/research-question-and-design
+  left: 84.81
+  top: 24.93
+  width: 7.69
+  height: 7.03
+
+## Biomedical
+
+- title: Biomedical Research alley
+  href: /research/biomedical
+  left: 9.25
+  top: 61.22
+  width: 10.08
+  height: 5.74
+
 - title: Biomedical research road
   body: Data interpretation and translation to practice
-  href: /research/health/data-interpretation
+  href: /research/biomedical/data-interpretation
   left: 49.38
   top: 68.99
   width: 10.08
@@ -84,9 +102,10 @@
   width: 7.69
   height: 7.03
 
-- title: Literature lakes
-  body: Not yet there
-  left: 25.54
-  top: 53.38
-  width: 14.96
-  height: 12.23
+- title: Biomedical research road
+  body: Research question and design
+  href: /research/biomedical/research-question-and-design
+  left: 22.18
+  top: 24.32
+  width: 7.69
+  height: 7.03

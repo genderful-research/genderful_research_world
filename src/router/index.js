@@ -30,20 +30,12 @@ const routes = [
     }
   },  
   {
-    path: '/research/biomedical',
+    path: '/research/:road/:location',
     component: () => import('../views/Research.vue'),
-    props: {
-      research_type: "biomedical_research",
-      areas: ["In vitro", "In vivo"]
-    }
   },
   {
-    path: '/research/health',
+    path: '/research/:road',
     component: () => import('../views/Research.vue'),
-    props: {
-      research_type: "health_research",
-      areas: ["In vitro", "In vivo"]
-    }
   },
   {
     path: '/research',
