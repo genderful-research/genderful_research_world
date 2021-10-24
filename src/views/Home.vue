@@ -2,6 +2,7 @@
 import content from '@/assets/content.yml';
 import marked from "marked"
 import FundedBy from '../components/FundedBy.vue';
+import Map from '../components/Map.vue';
 </script>
 
 <template>
@@ -15,6 +16,11 @@ import FundedBy from '../components/FundedBy.vue';
        <div class="col-md-4">
           <FundedBy/>
        </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <Map/>
+      </div>
     </div>
   </div>
 
