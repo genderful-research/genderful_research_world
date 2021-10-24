@@ -8,7 +8,8 @@
   if(path) {
     const router = useRouter()
     localStorage.removeItem('path');
-    router.push({path: path})
+    console.log("restoring: " + path)
+    router.replace({path: path})
   }
   // Retrieve previous stored answers
   const store = useStore()
