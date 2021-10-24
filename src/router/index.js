@@ -41,6 +41,15 @@ const routes = [
     }
   },
   {
+    path: '/research/health',
+    name: 'Health Research',
+    component: () => import('../views/Research.vue'),
+    props: {
+      research_type: "health_research",
+      areas: ["In vitro", "In vivo"]
+    }
+  },
+  {
     path: '/research',
     name: 'Research Road',
     component: () => import('../views/Research.vue'),
@@ -61,6 +70,15 @@ const routes = [
     props: {
       title: content.about.title,
       content: content.about.body,
+    }
+  },  
+  {
+    path: '/definition-door',
+    name: content.navigation.about,
+    component: () => import('../views/Default.vue'),
+    props: {
+      title: content.definition_door.title,
+      content: content.definition_door.body,
     }
   },  
 ]

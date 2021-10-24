@@ -30,6 +30,10 @@ case_studies:
   title: Case Studies
   info:
   body: lorem ipsum
+definition_door:
+  title: Definition door
+  info:
+  body: lorem ipsum
 about:
   title: Genderful Research Consortium (GRC)
   body: |

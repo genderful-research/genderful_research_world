@@ -7,6 +7,7 @@ import Map from '../components/Map.vue';
 
 <template>
   <div class="container">
+    <Map/>
     <div class="row">
       <div class="col-md-8">
         <h1>{{ content.home.title }}</h1>
@@ -16,11 +17,6 @@ import Map from '../components/Map.vue';
        <div class="col-md-4">
           <FundedBy/>
        </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <Map/>
-      </div>
     </div>
   </div>
 
