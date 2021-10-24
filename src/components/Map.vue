@@ -3,6 +3,7 @@
 import { Popover } from 'bootstrap/dist/js/bootstrap.esm.min.js'
 import { onMounted } from 'vue'
     onMounted(() => {
+        // Initialize popovers
         const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         popoverTriggerList.map(function (popoverTriggerEl) {
             return new Popover(popoverTriggerEl)
@@ -13,7 +14,7 @@ import { onMounted } from 'vue'
 <div class="container">
     <div class="row">
         <div class="col" style="position: relative">
-            <img class="img-fluid" src="@/assets/map.jpeg">
+            <img class="img-fluid" src="@/assets/map.png">
                           <a
     href="/definition-door"
     data-bs-toggle="popover"
