@@ -15,7 +15,6 @@ const routes = [
   },
   {
     path: '/funding',
-    name: content.navigation.funding,
     component: () => import('../views/Default.vue'),
     props: {
       title: content.funding.title,
@@ -24,7 +23,6 @@ const routes = [
   },
   {
     path: '/assembling_teams',
-    name: content.navigation.funding,
     component: () => import('../views/Default.vue'),
     props: {
       title: content.team_assembly.title,
@@ -33,7 +31,6 @@ const routes = [
   },  
   {
     path: '/research/biomedical',
-    name: 'Biomedical Research',
     component: () => import('../views/Research.vue'),
     props: {
       research_type: "biomedical_research",
@@ -42,7 +39,6 @@ const routes = [
   },
   {
     path: '/research/health',
-    name: 'Health Research',
     component: () => import('../views/Research.vue'),
     props: {
       research_type: "health_research",
@@ -51,12 +47,10 @@ const routes = [
   },
   {
     path: '/research',
-    name: 'Research Road',
     component: () => import('../views/Research.vue'),
   },
   {
     path: '/case_studies',
-    name: content.case_studies.title,
     component: () => import('../views/Default.vue'),
     props: {
       title: content.case_studies.title,
@@ -65,7 +59,6 @@ const routes = [
   },
   {
     path: '/about',
-    name: content.navigation.about,
     component: () => import('../views/Default.vue'),
     props: {
       title: content.about.title,
@@ -74,7 +67,6 @@ const routes = [
   },  
   {
     path: '/definition-door',
-    name: content.navigation.about,
     component: () => import('../views/Default.vue'),
     props: {
       title: content.definition_door.title,
