@@ -66,15 +66,16 @@ const yesno = [
             <span 
                 class="navbar-text text-success fs-5"
                 v-if="selected(item)['correct']">
-                Correct!
+                🎉 Correct!
             </span>
-            <span class="navbar-text text-danger"
+            <span class="navbar-text text-danger fs-5"
                 v-else>
-                Incorrect!
+                😟 Incorrect!
             </span>
         </template>
             <transition name="fade">
             <b-button
+                    variant="outline-secondary"
                     v-if="selected(item)"
                     data-bs-toggle="collapse" 
                     data-bs-target="#explain"
@@ -89,10 +90,11 @@ const yesno = [
         </div>
 
             <div class="card-footer text-end">
-                <b-button 
+                <b-button
+                    variant="outline-secondary"
                     :disabled="!selected(item)" 
                     @click.stop="nextQuestion()">
-                Next ⇨</b-button>
+                Next ⮕</b-button>
             </div>
         </div>
     </div>
