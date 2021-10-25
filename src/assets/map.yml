@@ -23,7 +23,7 @@
   height: 12.7
 
 - title: Literature lakes
-  body: Not yet there
+  body: Coming up soon
   href: "#"
   left: 25.54
   top: 53.38
@@ -61,6 +61,22 @@
   top: 81.69
   width: 11.87
   height: 17.43
+  
+- title: How to find you way
+  body: To navigate towards a Genderful research world, you can hover over the road map to find the sex and gender resources you are looking for
+  href: "#"
+  left: 5.38
+  top: 6.01
+  width: 9.57
+  height: 16.62
+  
+- title: Help writing?
+  body: Find out here the sex and gender definitions to properly use when writing
+  href: "#"
+  left: 91.9
+  top: 78.92
+  width: 6.99
+  height: 14.8
 
 ### Health
 
