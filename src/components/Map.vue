@@ -18,7 +18,7 @@ onBeforeUnmount(() => {
 })
 </script>
 <template>
-<div class="container-fluid">
+<div class="container-fluid" style="max-width:2100px">
     <div class="row">
         <div class="col" style="position: relative">
             <img class="img-fluid" src="@/assets/map.png">
