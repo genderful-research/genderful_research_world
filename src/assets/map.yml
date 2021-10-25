@@ -46,6 +46,21 @@
   width: 5.52
   height: 6.96
 
+- title: Search
+  body: Directly search for the resources without going through the landscape
+  href: "#"
+  left: 89.32
+  top: 1.15
+  width: 7.92
+  height: 11.35
+  
+- title: About
+  body: Directly search for the resources without going through the landscape
+  href: /about
+  left: 0.69
+  top: 81.69
+  width: 11.87
+  height: 17.43
 
 ### Health
 
