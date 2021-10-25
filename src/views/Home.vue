@@ -6,8 +6,8 @@ import Map from '../components/Map.vue';
 </script>
 
 <template>
+  <Map/>
   <div class="container">
-    <Map/>
     <div class="row">
       <div class="col-md-8">
         <h1>{{ content.home.title }}</h1>
