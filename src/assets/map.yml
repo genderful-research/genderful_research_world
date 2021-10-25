@@ -7,7 +7,7 @@
   height: 13.06
 
 - title: Team assembly campsite
-  body: Check out the resources for assembling teams
+  body: Check out the resources relevant to the assembly and composition of research teams, i.e., who is represented on the team
   href: /assembling_teams
   left: 41.55
   top: 47.71
@@ -15,6 +15,7 @@
   height: 18.14
 
 - title: Funding
+  body: Check out the resources relevant to tthe process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
   href: /funding
   left: 23.93
   top: 38.96
