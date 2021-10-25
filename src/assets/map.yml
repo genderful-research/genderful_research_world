@@ -7,7 +7,7 @@
   height: 13.06
 
 - title: Team assembly campsite
-  body: Check out the resources for assembling teams
+  body: Check out the resources relevant to the assembly and composition of research teams, i.e., who is represented on the team
   href: /assembling_teams
   left: 41.55
   top: 47.71
@@ -15,6 +15,7 @@
   height: 18.14
 
 - title: Funding
+  body: Check out the resources relevant to the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
   href: /funding
   left: 23.93
   top: 38.96
@@ -28,6 +29,23 @@
   top: 53.38
   width: 14.96
   height: 12.23
+
+- title: to Biomedical Research road
+  body: Check out the resources relevant to basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
+  href: "#"
+  left: 32.31
+  top: 17.77
+  width: 5.52
+  height: 6.96
+  
+  - title: to Health Research road
+  body: Check out the resources relevant to any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
+  href: "#"
+  left: 45.14
+  top: 17.57
+  width: 5.52
+  height: 6.96
+
 
 ### Health
 
