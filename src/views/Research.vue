@@ -2,7 +2,11 @@
 import content from '@/assets/content.yml';
 import ResearchRoad from '../components/ResearchRoad.vue';
 // import marked from "marked"
-
+import {defineProps} from "vue"
+defineProps({
+  road: String,
+  location: String,
+})
 </script>
 
 <template>
@@ -13,7 +17,7 @@ import ResearchRoad from '../components/ResearchRoad.vue';
         <p>{{ content.research.body }}</p>
       </div>
       <div class="col">
-        <ResearchRoad/>
+        <ResearchRoad :road="road" :location="location" />
       </div>
     </div>
   </div>

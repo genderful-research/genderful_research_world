@@ -1,12 +1,17 @@
 <script setup>
 import content from '@/assets/content.yml';
+import {defineProps} from "vue"
+defineProps({
+  road: String,
+  location: String,
+})
 </script>
 
 <template>
-    <h4>Research Road</h4>
+    <h4>{{ road }} Research Road</h4>
     <ul class="timeline">
-        <li v-for="phase in content.phases" :key="phase.id">
-            <h5>{{ phase.name }}</h5>
+        <li v-for="phase in content.phases" :key="phase.id" :class="{active: phase.id == location}">
+            <router-link :to="'/research/'+road+'/'+phase.id">{{ phase.name }}</router-link>
             <p>{{ phase.summary }}</p>
         </li>
     </ul>
@@ -42,5 +47,8 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+ul.timeline > li.active:before {
+    background: #22c0e8;
 }
 </style>
