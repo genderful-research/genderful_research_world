@@ -54,13 +54,13 @@ funded_by:
   title: Funded by
   body: ZonMw (Netherlands) and CIHR-IGH (Canada)
 phases:
-  - id: introduction-and-terminology
+  - id: introduction
     name: Introduction and terminology
-  - id: research-question-and-design
+  - id: research-question
     name: Research Question and Design
-  - id: study-population-and-sample-size
+  - id: study-population
     name: Study population and sample size
-  - id: data-collection-and-analysis
+  - id: data-collection
     name: Data Collection and Analysis
-  - id: data-interpretation-and-translation-to-practice
+  - id: data-interpretation
     name: Data Interpretation and Translation to Practice
