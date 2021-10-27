@@ -13,16 +13,12 @@ defineProps({
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <h1>{{ content.research.title }}</h1>
         <p>{{ content.research.body }}</p>
-      </div>
-      <div class="col">
         <ResearchRoad :road="road" :location="location" />
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
+      <div class="col-md-6">
         <Resources :road="road" :phase="location"/>
       </div>
     </div>

@@ -15,15 +15,16 @@ const routes = [
   },
   {
     path: '/funding',
-    component: () => import('../views/Default.vue'),
+    component: () => import('../views/InfoResource.vue'),
     props: {
       title: content.funding.title,
       content: content.funding.body,
+      phase: "funding",
     }
   },
   {
     path: '/assembling-teams',
-    component: () => import('../views/Default.vue'),
+    component: () => import('../views/InfoResource.vue'),
     props: {
       title: content.team_assembly.title,
       content: content.team_assembly.body,

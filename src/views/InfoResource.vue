@@ -1,9 +1,11 @@
 <script setup>
 import marked from "marked"
 import {defineProps} from "vue"
+import Resources from "../components/Resources.vue";
 defineProps({
   title: String,
   content: String,
+  phase: String,
 })
 </script>
 <template>
@@ -14,6 +16,7 @@ defineProps({
           <div v-html="marked(content)"></div>
       </div>
       <div class="col-md-6" >
+        <Resources :phase="phase"/>
       </div>
     </div>
   </div>
