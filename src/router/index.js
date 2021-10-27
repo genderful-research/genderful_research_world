@@ -22,11 +22,12 @@ const routes = [
     }
   },
   {
-    path: '/assembling_teams',
+    path: '/assembling-teams',
     component: () => import('../views/Default.vue'),
     props: {
       title: content.team_assembly.title,
       content: content.team_assembly.body,
+      phase: "assembling-teams"
     }
   },  
   {

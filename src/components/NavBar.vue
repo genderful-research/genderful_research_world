@@ -24,7 +24,7 @@ import content from '@/assets/content.yml';
             <router-link class="nav-link" to="/funding">Funding</router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" to="/assembling_teams">Assembling teams</router-link>
+            <router-link class="nav-link" to="/assembling-teams">Assembling teams</router-link>
         </li>
         <li class="nav-item">
             <router-link class="nav-link" to="/case_studies">Case studies</router-link>
