@@ -66,11 +66,11 @@ const yesno = [
             <span 
                 class="navbar-text text-success fs-5"
                 v-if="selected(item)['correct']">
-                🎉 Correct!
+                Correct!
             </span>
             <span class="navbar-text text-danger fs-5"
                 v-else>
-                😟 Incorrect!
+                Incorrect!
             </span>
         </template>
             <transition name="fade">
