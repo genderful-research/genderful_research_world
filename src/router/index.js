@@ -46,10 +46,12 @@ const routes = [
   },
   {
     path: '/case_studies',
-    component: () => import('../views/Default.vue'),
+    component: () => import('../views/InfoResource.vue'),
     props: {
       title: content.case_studies.title,
       content: content.case_studies.body,
+      phase: "case-studies"
+
     }
   },
   {
