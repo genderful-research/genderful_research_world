@@ -1,15 +1,9 @@
 <script setup>
-    import content from '@/assets/content.yml';
-    const buttons = [
-        [
-            {content: content.team_assembly, url: "/assembling-teams"},
-            {content: content.funding, url: "/funding"},
-        ],
-        [
-            {content: content.biomedical, url: "/research/biomedical"},
-            {content: content.health, url: "/research/health"},
-        ],
-    ]
+import { defineProps, toRefs } from "vue"
+const props = defineProps({
+  buttons: Object,
+})
+const { buttons } = toRefs(props);
 </script>
 
 <template>

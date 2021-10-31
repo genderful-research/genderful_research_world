@@ -59,7 +59,7 @@ const routes = [
     component: () => import('../views/DefinitionDoor.vue'),
     props: {
       title: content.definition_door.title,
-      content: content.definition_door.body,
+      body: content.definition_door.body,
     }
   },  
 ]
