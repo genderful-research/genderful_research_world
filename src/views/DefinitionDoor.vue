@@ -2,6 +2,7 @@
 import marked from "marked"
 import {defineProps} from "vue"
 import DefinitionDoor1 from "../components/svg/DefinitionDoor.vue";
+import DefinitionDoorLinks from "../components/DefinitionDoorLinks.vue";
 defineProps({
   title: String,
   content: String,
@@ -16,6 +17,7 @@ defineProps({
             <div class="col-md-6" >
               <h1>{{ title }}</h1>
               <div v-html="marked(content)"></div>
+              <DefinitionDoorLinks/>
             </div>
             <div class="col-md-6" >
               <DefinitionDoor1/>
