@@ -32,7 +32,7 @@ const routes = [
     }
   },  
   {
-    path: '/research/:road?/:location?',
+    path: '/research/:road(health|biomedical)?/:location?',
     component: () => import('../views/Research.vue'),
     props: true,
   },
