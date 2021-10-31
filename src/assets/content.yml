@@ -72,3 +72,4 @@ resource_types:
   guideline: {icon: "bi-card-text", text: "Guideline"}
   case_study: {icon: "bi-newspaper", text: "Case study"}
   course: {icon: "bi-card-text", text: "Course"}
+  report: {icon: "bi-newspaper", text: "Report"}
