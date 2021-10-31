@@ -64,3 +64,11 @@ phases:
     name: Data Collection and Analysis
   - id: data-interpretation
     name: Data Interpretation and Translation to Practice
+resource_types: 
+  factsheet: {icon: "bi-check-square", text: "Fact Sheet"}
+  article: {icon: "bi-newspaper", text: "Article"}
+  infographic: {icon: "bi-pie-chart", text: "Info graphic"}
+  video: {icon: "bi-camera-video", text: "Video"}
+  guideline: {icon: "bi-card-text", text: "Guideline"}
+  case_study: {icon: "bi-newspaper", text: "Case study"}
+  course: {icon: "bi-card-text", text: "Course"}
