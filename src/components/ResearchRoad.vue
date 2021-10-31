@@ -8,7 +8,6 @@ defineProps({
 </script>
 
 <template>
-    <h4>{{ road }} Research Road</h4>
     <ul class="timeline">
         <li v-for="phase in content.phases" :key="phase.id" :class="{active: phase.id == location}">
             <router-link :to="'/research/'+road+'/'+phase.id">{{ phase.name }}</router-link>

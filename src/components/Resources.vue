@@ -19,7 +19,12 @@
 
     <h3>Relevant resources</h3>
     <div v-for="resource in filteredResults" :key="resource">
-        <h6>{{ resource["title"] }}</h6>
-        <p>🔗 <a target="_blank" :href="resource['url']">Link to the resource</a></p>
+        <div class="card mb-3">
+            <div class="card-body">
+            <h5 class="card-title">{{ resource.title }}</h5>
+            <p class="card-text">{{ resource.description }}</p>
+            <a target="_blank" class="btn btn-primary stretched-link" :href="resource.url">View</a>
+            </div>
+        </div>
     </div>
 </template>

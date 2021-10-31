@@ -12,15 +12,18 @@ defineProps({
 
 <template>
   <div class="container">
-    <div class="row">
+    <div v-if="road" class="row">
       <div class="col-md-6">
-        <h1>{{ content.research.title }}</h1>
+        <h1>{{ content[road].title }}</h1>
         <p>{{ content.research.body }}</p>
         <ResearchRoad :road="road" :location="location" />
       </div>
       <div class="col-md-6">
         <Resources :road="road" :phase="location"/>
       </div>
+    </div>
+    <div v-else class="row">
+      Please select a Research area
     </div>
   </div>
 </template>
