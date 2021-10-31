@@ -22,7 +22,7 @@ defineProps({
     <div v-if="road" class="row">
       <div class="col-md-6">
         <h1>{{ content[road].title }}</h1>
-        <p>{{ content.research.body }}</p>
+        <p>{{ content[road].body }}</p>
         <ResearchRoad :road="road" :location="location" />
       </div>
       <div class="col-md-6">

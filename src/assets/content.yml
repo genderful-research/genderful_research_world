@@ -13,11 +13,11 @@ research:
 biomedical:
   title: Biomedical Research
   info: This category, also known as basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
-  intro: Sex has historically been overlooked in many areas of biomedical research, with the assumption being that sex is not relevant in certain types of research, female hormonal fluctuations create too much variability to conduct rigorous research, or that the costs associated with conducting sex-based analyses is not worth the benefit. This section will highlight why these assumptions are incorrect, and how rigorous research can and should include consideration of sex. 
+  body: Sex has historically been overlooked in many areas of biomedical research, with the assumption being that sex is not relevant in certain types of research, female hormonal fluctuations create too much variability to conduct rigorous research, or that the costs associated with conducting sex-based analyses is not worth the benefit. This section will highlight why these assumptions are incorrect, and how rigorous research can and should include consideration of sex. 
 health:
   title: Health Research
   info: This category includes any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
-  intro: Sex and gender represent a range of biological, psychological, and social factors that influence health behaviours, outcomes, and health systems delivery. This section will review why sex and gender are relevant to all stages of the clinical research process, and why integrating a focus on both sex and gender is key for rigorous, inclusive research.
+  body: Sex and gender represent a range of biological, psychological, and social factors that influence health behaviours, outcomes, and health systems delivery. This section will review why sex and gender are relevant to all stages of the clinical research process, and why integrating a focus on both sex and gender is key for rigorous, inclusive research.
 funding:
   title: Funding
   info: This section reviews information regarding the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
@@ -67,7 +67,7 @@ phases:
 resource_types: 
   factsheet: {icon: "bi-check-square", text: "Fact Sheet"}
   article: {icon: "bi-newspaper", text: "Article"}
-  infographic: {icon: "bi-pie-chart", text: "Info graphic"}
+  infographic: {icon: "bi-pie-chart", text: "Infographic"}
   video: {icon: "bi-camera-video", text: "Video"}
   guideline: {icon: "bi-card-text", text: "Guideline"}
   case_study: {icon: "bi-newspaper", text: "Case study"}
