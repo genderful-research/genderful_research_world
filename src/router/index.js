@@ -32,17 +32,9 @@ const routes = [
     }
   },  
   {
-    path: '/research/:road/:location',
+    path: '/research/:road?/:location?',
     component: () => import('../views/Research.vue'),
     props: true,
-  },
-  {
-    path: '/research/:road',
-    component: () => import('../views/Research.vue'),
-  },
-  {
-    path: '/research',
-    component: () => import('../views/Research.vue'),
   },
   {
     path: '/case_studies',
