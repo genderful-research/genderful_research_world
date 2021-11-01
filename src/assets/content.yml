@@ -7,6 +7,9 @@ home:
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
     Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research. 
+introduction:
+  title: Introduction and terminology
+  body: Lorem ipsum 
 research:
   title: Research road
   body: Before you hit the road, it is very important that the concepts of gender and sex are clear and correct to you. Take a quiz to test your knowledge in the definitions.
@@ -54,8 +57,6 @@ funded_by:
   title: Funded by
   body: ZonMw (Netherlands) and CIHR-IGH (Canada)
 phases:
-  - id: introduction
-    name: Introduction and terminology
   - id: research-question
     name: Research Question and Design
   - id: study-population

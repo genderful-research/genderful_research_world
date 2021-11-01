@@ -9,6 +9,16 @@ const routes = [
     component: Home
   },
   {
+    path: '/introduction',
+    name: 'Introduction',
+    component: () => import('../views/InfoResource.vue'),
+    props: {
+      title: content.introduction.title,
+      content: content.introduction.body,
+      phase: "introduction",
+    }
+  },
+  {
     path: '/quiz',
     name: 'Quiz',
     component: () => import('../views/Quiz.vue')
