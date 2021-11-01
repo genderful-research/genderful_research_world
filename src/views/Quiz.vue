@@ -17,7 +17,7 @@ const resetQuiz = () => store.commit('resetQuiz')
       <div class="col-md-3">
         <p>
           Total answered: {{ totalAnswered }}
-          <b-button :disabled="!totalAnswered" @click.stop="resetQuiz">Reset quiz</b-button>
+          <button class="btn btn-outline-secondary" :disabled="!totalAnswered" @click.stop="resetQuiz">Reset quiz</button>
         </p>
       </div>
     </div>

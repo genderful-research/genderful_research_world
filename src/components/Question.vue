@@ -51,17 +51,18 @@ const yesno = [
             />
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
-        <b-button-group>
-            <b-button
-                v-for="answer in yesno"
-                :variant="variant(answer, item)"
-                :key="answer.value"
-                :disabled="!!selected(item)"
-                @click.stop="storeAnswer(item, answer.value)">
-                {{ answer.text }}
-            </b-button>
+                <div class="btn-group" role="group">
+                    <button
+                        v-for="answer in yesno"
+                        class="btn"
+                        :class="'btn-' + variant(answer, item)"
+                        :key="answer.value"
+                        :disabled="!!selected(item)"
+                        @click.stop="storeAnswer(item, answer.value)">
+                        {{ answer.text }}
+                    </button>
             
-        </b-button-group>
+                </div>
         <template v-if="selected(item)">
             <span 
                 class="navbar-text text-success fs-5"
@@ -74,14 +75,14 @@ const yesno = [
             </span>
         </template>
             <transition name="fade">
-            <b-button
-                    variant="outline-secondary"
+            <button
+                    class="btn btn-outline-secondary"
                     v-if="selected(item)"
                     data-bs-toggle="collapse" 
                     data-bs-target="#explain"
                     aria-expanded="false" 
                     aria-controls="explain">
-                    Explain</b-button>
+                    Explain</button>
             </transition> 
         </div>
         </nav>
@@ -90,11 +91,11 @@ const yesno = [
         </div>
 
             <div class="card-footer text-end">
-                <b-button
-                    variant="outline-secondary"
+                <button
+                    class="btn btn-outline-secondary"
                     :disabled="!selected(item)" 
                     @click.stop="nextQuestion()">
-                Next ⮕</b-button>
+                Next ⮕</button>
             </div>
         </div>
     </div>
