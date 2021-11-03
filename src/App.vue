@@ -21,10 +21,7 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-<main class="flex-shrink-0">
-
   <NavBar/>
   <router-view/>
-  </main>
   <Footer/>
 </template>
