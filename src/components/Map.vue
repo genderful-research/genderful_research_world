@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
 <div class="container-fluid" style="max-width:2100px">
     <div class="row">
         <div class="col" style="position: relative">
-            <img class="img-fluid" src="@/assets/map.png">
+            <img class="img-fluid" src="@/assets/map.jpg">
             <router-link v-for="item in mapItems" :key="item.left"
                 data-bs-toggle="popover"
                 data-bs-trigger="hover"
