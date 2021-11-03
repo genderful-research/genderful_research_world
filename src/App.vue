@@ -2,6 +2,7 @@
   import NavBar from '@/components/NavBar.vue';
   import { useRouter } from 'vue-router'
   import { useStore } from 'vuex'
+import Footer from './components/Footer.vue';
 
   // For github pages: handle redirect from 404.html
   const path = localStorage.getItem('path');
@@ -20,6 +21,10 @@
 </script>
 
 <template>
+<main class="flex-shrink-0">
+
   <NavBar/>
   <router-view/>
+  </main>
+  <Footer/>
 </template>
