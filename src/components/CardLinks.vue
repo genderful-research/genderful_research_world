@@ -13,7 +13,7 @@ const { buttons } = toRefs(props);
         <div class="card-body">
           <h5 class="card-title">{{ col.content.title }}</h5>
           <p class="card-text">{{ col.content.info }}</p>
-          <router-link class="btn btn-primary" :to="col.url">Go</router-link>
+          <router-link class="btn btn-primary stretched-link" :to="col.url">Go</router-link>
         </div>
       </div>
     </div>
