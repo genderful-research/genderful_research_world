@@ -1,161 +1,169 @@
 - title: Definition door
   body: Where the journey starts
   href: /definition-door
-  left: 37.51
-  top: 13.31
-  width: 7.92
-  height: 11.35
+  left: 37.67
+  top: 11.35
+  width: 6.44
+  height: 13.31
 
 - title: Team assembly campsite
   body: Check out the resources relevant to the assembly and composition of research teams, i.e., who is represented on the team
   href: /assembling-teams
-  left: 41.55
-  top: 47.71
-  width: 16.36
-  height: 18.14
+  left: 41.44
+  top: 35.88
+  width: 15.64
+  height: 25.27
 
 - title: Funding
   body: Check out the resources relevant to the process of identifying funding opportunities and understanding institute-specific mandates for integrating sex and gender into research design, and how to integrate consideration of sex and gender into the research grant at all stages.
   href: /funding
-  left: 23.93
-  top: 38.96
-  width: 12.6
-  height: 12.7
+  left: 22.95
+  top: 37.09
+  width: 9.84
+  height: 13.31
 
 - title: Literature lakes
-  body: Coming up soon
+  body: Directly search for the resources without going through the landscape
   href: "#"
-  left: 25.54
-  top: 53.38
-  width: 14.96
-  height: 12.23
+  left: 25.02
+  top: 51.62
+  width: 13.06
+  height: 11.82
 
 - title: to Biomedical Research road
   body: Check out the resources relevant to basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
   href: "#"
-  left: 32.31
-  top: 17.77
-  width: 5.52
-  height: 6.96
+  left: 30.5
+  top: 18.51
+  width: 7.5
+  height: 4.05
   
 - title: to Health Research road
   body: Check out the resources relevant to any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
   href: "#"
-  left: 45.14
-  top: 17.57
-  width: 5.52
-  height: 6.96
+  left: 44.16
+  top: 18.24
+  width: 7.5
+  height: 4.05
 
-- title: Search
-  body: Directly search for the resources without going through the landscape
+- title: Pink glasses
+  body: waiting text from Lena
   href: "#"
-  left: 89.32
-  top: 1.15
-  width: 7.92
-  height: 11.35
+  left: 17.02
+  top: 6.15
+  width: 7.22
+  height: 9.26
   
 - title: About
   body: About the project and us
   href: /about
-  left: 0.69
-  top: 81.69
-  width: 11.87
-  height: 17.43
+  left: 1.47
+  top: 80.41
+  width: 12.28
+  height: 18.45
   
 - title: How to find your way
   body: To navigate towards a Genderful research world, you can hover over the road map to find the sex and gender resources you are looking for
   href: "#"
-  left: 5.38
-  top: 6.01
-  width: 9.57
-  height: 16.62
+  left: 5.06
+  top: 5.61
+  width: 9.2
+  height: 16.96
   
-- title: Help writing?
+- title: Help with writing?
   body: Find out here the sex and gender definitions to properly use when writing
   href: "#"
-  left: 91.9
-  top: 78.92
-  width: 6.99
-  height: 14.8
+  left: 90.16
+  top: 77.91
+  width: 5.75
+  height: 15.07
+  
+- title: You have reached the Genderful Research World!
+  body: By using the sex and gender resources and integrating sex and gender during your research, you are helping us to build a better, more inclusive Research World.
+  href: "#"
+  left: 60.99
+  top: 70.68
+  width: 11.91
+  height: 16.35
 
 ### Health
 
 - title: Health Research mountains
   href: /research/health
-  left: 81.55
-  top: 37.43
-  width: 12.38
-  height: 4.53
+  left: 79.02
+  top: 34.26
+  width: 13.71
+  height: 7.43
 
 - title: Health research road
   body: Data collection and analysis
   href: /research/health/data-collection
-  left: 82.01
-  top: 41.15
-  width: 7.69
-  height: 7.03
+  left: 79.9
+  top: 42.16
+  width: 11.09
+  height: 7.43
 
 - title: Health research road
   body: Study population and sample size
   href: /research/health/study-population
-  left: 63.92
-  top: 51.55
-  width: 7.69
-  height: 7.03
+  left: 61.87
+  top: 52.3
+  width: 11.09
+  height: 7.43
 
 - title: Health research road
   body: Data interpretation and translation to practice
   href: /research/health/data-interpretation
-  left: 75.38
-  top: 71.69
-  width: 10.08
-  height: 5.74
+  left: 73.23
+  top: 68.24
+  width: 11.96
+  height: 8.51
 
 - title: Health research road
   body: Research question and design
   href: /research/health/research-question
-  left: 84.81
-  top: 24.93
-  width: 7.69
-  height: 7.03
+  left: 81.09
+  top: 25.34
+  width: 11.09
+  height: 7.43
 
 ## Biomedical
 
-- title: Biomedical Research alley
+- title: Biomedical Research Woods
   href: /research/biomedical
-  left: 9.25
-  top: 61.22
-  width: 10.08
-  height: 5.74
+  left: 8.74
+  top: 49.19
+  width: 13.52
+  height: 27.36
 
 - title: Biomedical research road
   body: Data interpretation and translation to practice
   href: /research/biomedical/data-interpretation
-  left: 49.38
-  top: 68.99
-  width: 10.08
-  height: 5.74
+  left: 48.67
+  top: 68.45
+  width: 11.91
+  height: 8.65
 
 - title: Biomedical research road
   body: Data collection and analysis
   href: /research/biomedical/data-collection
-  left: 24.71
-  top: 65.74
-  width: 7.69
-  height: 7.03
+  left: 22.72
+  top: 65.27
+  width: 10.99
+  height: 6.89
 
 - title: Biomedical research road
   body: Study population and sample size
   href: /research/biomedical/study-population
-  left: 12.24
-  top: 46.89
-  width: 7.69
-  height: 7.03
+  left: 9.84
+  top: 41.35
+  width: 10.99
+  height: 6.89
 
 - title: Biomedical research road
   body: Research question and design
   href: /research/biomedical/research-question
-  left: 22.18
-  top: 24.32
-  width: 7.69
-  height: 7.03
+  left: 21.85
+  top: 23.65
+  width: 10.99
+  height: 6.89
