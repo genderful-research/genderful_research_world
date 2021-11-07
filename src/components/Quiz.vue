@@ -15,15 +15,16 @@ const questions = quiz[section.value].questions.map((obj) => {
       obj.number = counter++
       return obj
     })
+store.commit("setNumberOfQuestions", {section: section.value, length: questions.length})
 
-const currentQuestionNumber = () => store.getters.currentQuestionNumber
+const currentQuestionNumber = () => store.getters.currentQuestionNumber(section.value)
 const currentQuestion = (number) => questions.find(obj => { return obj.number === number })
 </script>
 
 <template>
     <h4>{{ title }}</h4>
     <transition name="fade">
-        <Question :item="currentQuestion(currentQuestionNumber())"/>
+        <Question :section="section" :item="currentQuestion(currentQuestionNumber())"/>
     </transition>
 </template>
 

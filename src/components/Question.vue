@@ -12,11 +12,13 @@ renderer.link = (href, title, text) => {
 
 const props = defineProps({
   item: Object,
+  section: String,
 })
-const { item } = toRefs(props);
+const { item, section } = toRefs(props);
 
 const store = useStore()
 const selected = (item) => store.getters.selectedAnswer(item.id)
+const maxQuestions = store.getters.getMaxQuestions(section.value)
 const variant = (answer, item) => {
     if (answer.value == true) {
         return selected(item)['selected'] == true ? "success" : "outline-success"
@@ -26,7 +28,8 @@ const variant = (answer, item) => {
     }
 }
 const storeAnswer = (item, answer) => store.dispatch('addAnswer', {item: item, answer: answer})
-const nextQuestion = () => store.commit("updateQuestionNumber")
+const nextQuestion = () => store.commit("updateQuestionNumber", section.value)
+const getScore = (section) => store.getters.getScore(section)
 const yesno = [
     {text: 'True', value: true},
     {text: 'False', value: false},
@@ -34,22 +37,19 @@ const yesno = [
 </script>
 
 <template>
-    <div v-if="item" :key="item.number">
-        <div class="card"
-            style="max-width: 40rem;"        >
-        <div class="card-header">
-            Question {{ item.number}}
-        </div>
+    <div v-if="item">
+        <div class="card" style="max-width: 40rem;" >
+            <div class="card-header">
+                Question {{ item.number}} of {{ maxQuestions }}
+            </div>
         <div class="card-body">
-                    <p class="fs-5">{{ item.question }}</p>
-
+            <p class="fs-5">{{ item.question }}</p>
         <div 
             class="collapse" 
             id="explain" 
             v-html="marked(item.explanation, {renderer})"
             v-if="!!selected(item)"
             />
-        <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <div class="btn-group" role="group">
                     <button
@@ -85,9 +85,6 @@ const yesno = [
                     Explain</button>
             </transition> 
         </div>
-        </nav>
-
-
         </div>
 
             <div class="card-footer text-end">
@@ -98,5 +95,8 @@ const yesno = [
                 Next ⮕</button>
             </div>
         </div>
+    </div>
+    <div v-else>
+        Score: {{ getScore(section) }}%
     </div>
 </template>
