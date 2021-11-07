@@ -32,7 +32,7 @@ const buttons = [
 </script>
 
 <template>
-  <div class="container">
+  <div class="container pt-4">
     <div v-if="road" class="row">
       <div class="col-md-6">
         <h1>{{ content[road].title }}</h1>

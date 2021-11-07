@@ -18,7 +18,7 @@
 </script>
 
 <template>
-<div class="container">
+<div class="container pt-4">
     <div class="row">
         <div class="col-md-6">
             <h3>Literature lake</h3>
@@ -38,7 +38,7 @@
                                     {{ resource.description }}
                                 </div>
                                 <div class="col">
-                                    <a :href="resource.url">
+                                    <a :href="resource.url" target="_blank">
                                         <i :class="getIcon(resource)"></i>&nbsp;
                                         {{ getText(resource) }}
                                     </a><br>
