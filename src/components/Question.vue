@@ -97,6 +97,6 @@ const yesno = [
         </div>
     </div>
     <div v-else>
-        Score: {{ getScore(section) }}%
+        <h5>Score: {{ getScore(section) }}%</h5>
     </div>
 </template>

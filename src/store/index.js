@@ -10,6 +10,9 @@ export default createStore({
     totalAnswered(state) {
       return Object.keys(state.answers).length
     },
+    quizAnswered: (state) => (section) => {
+      return state.currentQuestionNumber[section] > state.numberOfQuestions[section]
+    },
     selectedAnswer: (state) => (id) => {
       if (id in state.answers) {
         return state.answers[id]
@@ -25,7 +28,6 @@ export default createStore({
     getScore: (state) => (section) => {
       let goodAnswers = 0
       for (const answer in state.answers) {
-        console.log(section)
         if (answer.startsWith(section) && state.answers[answer].correct) {
           goodAnswers = goodAnswers + 1
         }
