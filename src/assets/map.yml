@@ -24,7 +24,7 @@
 
 - title: Literature lakes
   body: Directly search for the resources without going through the landscape
-  href: "#"
+  href: "/literature"
   left: 25.02
   top: 51.62
   width: 13.06
@@ -32,7 +32,7 @@
 
 - title: to Biomedical Research road
   body: Check out the resources relevant to basic/experimental research, includes animal experiments, cell studies, genetic, biochemical and physiological investigations.
-  href: "#"
+  href: "/research/biomedical"
   left: 30.5
   top: 18.51
   width: 7.5
@@ -40,7 +40,7 @@
   
 - title: to Health Research road
   body: Check out the resources relevant to any research conducted with humans and human data, including epidemiology and population health studies, studies conducted in a clinical setting, health systems research, and community-based studies of clinical populations or questions of clinical relevance.
-  href: "#"
+  href: "/research/health"
   left: 44.16
   top: 18.24
   width: 7.5

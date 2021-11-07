@@ -72,6 +72,10 @@ const routes = [
       body: content.definition_door.body,
     }
   },  
+  {
+    path: '/literature',
+    component: () => import('../views/Literature.vue'),
+  },  
 ]
 
 const router = createRouter({
