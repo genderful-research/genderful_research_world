@@ -1,5 +1,18 @@
 <script setup>
 import content from '@/assets/content.yml';
+import { useRouter } from 'vue-router'
+import { onMounted } from 'vue'
+import { Collapse } from 'bootstrap'
+
+onMounted(() => {
+  const router = useRouter()
+  const menuToggle = document.getElementById('navbarSupportedContent')
+  const bsCollapse = new Collapse(menuToggle, {toggle: false})
+  router.afterEach(() => {
+    bsCollapse.hide()
+  })
+})
+
 </script>
 
 <template>
