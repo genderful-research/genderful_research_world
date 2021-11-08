@@ -2,6 +2,7 @@
     import resources from '@/assets/resources.csv'
     import content from '@/assets/content.yml'
     import {computed, reactive} from 'vue'
+    import marked from "marked"
 
     const filter = reactive({road:'all', phase: 'all'})
     const filteredResults = computed(() => resources.filter(resource => {
@@ -21,8 +22,10 @@
 <div class="container pt-4">
     <div class="row">
         <div class="col-md-6">
-            <h3>Literature lake</h3>
-
+            <h3>{{content.literature.title}}</h3>
+            <div v-html="marked(content.literature.body)"/>
+        </div>
+         <div class="col-md-6">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item" v-for="(resource, index) in filteredResults" :key="resource">
                     <h2 class="accordion-header" :id="'heading' + index">
