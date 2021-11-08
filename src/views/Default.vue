@@ -2,18 +2,18 @@
 import marked from "marked"
 import {defineProps} from "vue"
 defineProps({
-  title: String,
-  content: String,
+  content: Object,
 })
 </script>
 <template>
   <div class="container pt-4">
     <div class="row">
-      <div class="col-md-6" >
-          <h1>{{ title }}</h1>
-          <div v-html="marked(content)"></div>
+      <div class="col-md-7" >
+          <h1>{{ content.title }}</h1>
+          <div v-html="marked(content.body)"></div>
       </div>
-      <div class="col-md-6" >
+      <div class="col-md-5" >
+        <div v-html="marked(content.column_2)"></div>
       </div>
     </div>
   </div>

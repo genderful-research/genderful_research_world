@@ -60,8 +60,7 @@ const routes = [
     path: '/about',
     component: () => import('../views/Default.vue'),
     props: {
-      title: content.about.title,
-      content: content.about.body,
+      content: content.about
     }
   },  
   {
