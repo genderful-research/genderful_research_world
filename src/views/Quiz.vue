@@ -11,17 +11,14 @@ const resetQuiz = () => store.commit('resetQuiz')
 
 <template>
   <div class="container pt-4">
-    <div class="row">
-      <div class="col">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
         <h1>Quiz
           <button class="btn btn-outline-secondary float-end" :disabled="!totalAnswered" @click.stop="resetQuiz">
             <i class="bi-recycle"/> Reset quiz
           </button>
         </h1>
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-md-6">
+
         <Quiz :section="'definitions'" />
         <Quiz v-if="quizAnswered('definitions')" :section="'relevance'" />
       </div>
