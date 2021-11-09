@@ -6,10 +6,17 @@ import Map from '../components/Map.vue';
 import Modal1 from '../components/Modal.vue';
 import { Modal } from 'bootstrap'
 import { onMounted } from 'vue'
+import { useStore } from 'vuex'
+
+const store = useStore()
 
 onMounted(() => {
   const aModal =  new Modal(document.getElementById('modal'), {})
-  aModal.show()
+  if(! store.getters.viewed_explanation){
+    aModal.show()
+    store.commit("setExplanationViewed")
+  }
+  
 })
 </script>
 
@@ -27,5 +34,5 @@ onMounted(() => {
        </div>
     </div>
   </div>
-  <Modal1/>
+  <Modal1 :content="content.explanation"/>
 </template>
