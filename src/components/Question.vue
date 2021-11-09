@@ -50,8 +50,8 @@ const yesno = [
             v-html="marked(item.explanation, {renderer})"
             v-if="!!selected(item)"
             />
-            <div class="container-fluid">
-                <div class="btn-group" role="group">
+            <div class="align-middle text-center">
+                <div class="btn-group float-start" role="group">
                     <button
                         v-for="answer in yesno"
                         class="btn"
@@ -61,22 +61,21 @@ const yesno = [
                         @click.stop="storeAnswer(item, answer.value)">
                         {{ answer.text }}
                     </button>
-            
                 </div>
         <template v-if="selected(item)">
             <span 
-                class="navbar-text text-success fs-5"
+                class="align-middle text-center text-success fs-5"
                 v-if="selected(item)['correct']">
                 Correct!
             </span>
-            <span class="navbar-text text-danger fs-5"
+            <span class="text-danger fs-5"
                 v-else>
                 Incorrect!
             </span>
         </template>
             <transition name="fade">
             <button
-                    class="btn btn-outline-secondary"
+                    class="btn float-end btn-outline-secondary"
                     v-if="selected(item)"
                     data-bs-toggle="collapse" 
                     data-bs-target="#explain"
