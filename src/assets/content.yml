@@ -68,7 +68,12 @@ about:
     - **Lena D. Sialino** -  PhD researcher in health sciences at the Vrije Universiteit Amsterdam & National Institute for Public Health and the Environment, in Amsterdam, Netherlands.
     - **Jasmijn Sleutjes** - resident and clinical researcher, finalizing her doctoral degree at the Department of Gastroenterology and Hepatology, Erasmus MC, in Rotterdam, Netherlands.
     - **Natália Valdrighi** - biomedical scientist pursuing her doctoral degree at the Experimental Rheumatology Department, Radboudumc, in Nijmegen, Netherlands.
-
+feasibility_study:
+  title: Feasibility study
+  body: |
+    If you want to be part of the Feasibility study please visit this link: [Feasibility study](https://google.com)
+  column_2: |
+    Some background info
 funded_by:
   title: Funded by
   body: ZonMw (Netherlands) and CIHR-IGH (Canada) 

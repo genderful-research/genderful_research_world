@@ -64,6 +64,13 @@ const routes = [
     }
   },  
   {
+    path: '/feasibility',
+    component: () => import('../views/Default.vue'),
+    props: {
+      content: content.feasibility_study
+    }
+  },  
+  {
     path: '/definition-door',
     component: () => import('../views/DefinitionDoor.vue'),
     props: {
