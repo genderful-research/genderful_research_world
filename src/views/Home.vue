@@ -3,6 +3,14 @@ import content from '@/assets/content.yml';
 import marked from "marked"
 import FundedBy from '../components/FundedBy.vue';
 import Map from '../components/Map.vue';
+import Modal1 from '../components/Modal.vue';
+import { Modal } from 'bootstrap'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const aModal =  new Modal(document.getElementById('modal'), {})
+  aModal.show()
+})
 </script>
 
 <template>
@@ -19,5 +27,5 @@ import Map from '../components/Map.vue';
        </div>
     </div>
   </div>
-
+  <Modal1/>
 </template>
