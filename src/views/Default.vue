@@ -6,7 +6,7 @@ defineProps({
 })
 </script>
 <template>
-  <div class="container pt-4">
+  <div class="container py-4">
     <div class="row">
       <div class="col">
         <h1>{{ content.title }}</h1>

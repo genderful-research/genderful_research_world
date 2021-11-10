@@ -9,7 +9,7 @@ defineProps({
 })
 </script>
 <template>
-  <div class="container pt-4">
+  <div class="container py-4">
     <div class="row">
       <div class="col-md-6" >
           <h1>{{ title }}</h1>

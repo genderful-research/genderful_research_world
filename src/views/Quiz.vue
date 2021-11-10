@@ -10,7 +10,7 @@ const resetQuiz = () => store.commit('resetQuiz')
 </script>
 
 <template>
-  <div class="container pt-4">
+  <div class="container py-4">
     <div class="row justify-content-md-center">
       <div class="col-md-6">
         <h1>Quiz

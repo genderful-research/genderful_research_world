@@ -22,7 +22,7 @@ onMounted(() => {
 
 <template>
   <Map/>
-  <div class="container">
+  <div class="container py-4">
     <div class="row">
       <div class="col-md-8">
         <h1>{{ content.home.title }}</h1>
