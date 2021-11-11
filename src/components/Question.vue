@@ -2,6 +2,8 @@
 import { defineProps, toRefs } from "vue"
 import { useStore } from 'vuex'
 import marked from "marked"
+import content from '@/assets/content.yml'
+
 const renderer = new marked.Renderer();
 const linkRenderer = renderer.link;
 renderer.link = (href, title, text) => {
@@ -96,6 +98,20 @@ const yesno = [
         </div>
     </div>
     <div v-else>
-        <h5>Score: {{ getScore(section) }}%</h5>
+            <div v-if="getScore(section) > 75" class="alert alert-success">
+                <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
+                <p>{{ content.quiz_results.good }}</p>
+                <router-link to="/introduction">Go to introduction</router-link>
+            </div>
+            <div v-else-if="getScore(section) > 50" class="alert alert-warning">
+                <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
+                <p>{{ content.quiz_results.average }}</p>
+                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+            </div>
+            <div v-else class="alert alert-danger">
+                <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
+                <p>{{ content.quiz_results.bad }}</p>
+                <router-link to="/introduction">Go to introduction</router-link>
+            </div>
     </div>
 </template>

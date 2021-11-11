@@ -24,6 +24,10 @@ quiz_teaser_popup:
       url: /quiz
     - title: Nah, I know everything
       type: close
+quiz_results:
+    good: Good job!
+    average: Ok, but you may want to brush up your knowledge
+    bad: You really need to read up on the subject!
 introduction:
   title: Introduction and terminology
   body: The terms "sex" and "gender" are used in many different ways in the scientific literature, and are often (incorrectly) used interchangeably. These resources provide comprehensive definitions of each term, and why these constructs are important to incorporate into your research.
