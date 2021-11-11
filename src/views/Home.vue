@@ -34,5 +34,5 @@ onMounted(() => {
        </div>
     </div>
   </div>
-  <Modal1 :content="content.explanation"/>
+  <Modal1 :content="content.explanation_popup"/>
 </template>

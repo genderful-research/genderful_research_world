@@ -3,12 +3,14 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     viewed_explanation: false,
+    viewed_quiz: false,
     answers: {},
     currentQuestionNumber: {definitions: 1, relevance: 1},
     numberOfQuestions: {definitions: 0, relevance: 0},
   },
   getters: {
     viewed_explanation(state) { return state.viewed_explanation },
+    viewed_quiz(state) { return state.viewed_quiz },
     totalAnswered(state) {
       return Object.keys(state.answers).length
     },
@@ -40,6 +42,9 @@ export default createStore({
   mutations: {
     setExplanationViewed (state) {
       state.viewed_explanation = true
+    },
+    setQuizViewed (state) {
+      state.viewed_quiz = true
     },
     setAnswer (state, answer) {
       state.answers[answer.item.id] = {

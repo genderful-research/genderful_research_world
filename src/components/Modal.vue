@@ -19,7 +19,16 @@ const { content } = toRefs(props);
       <div class="modal-body" v-html="marked(content.body)">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div v-if="content.buttons">
+          <template v-for="button in content.buttons" :key="button">
+            <button v-if="button.type=='close'" type="button" class="btn btn-secondary" 
+            data-bs-dismiss="modal">{{ button.title }}</button>
+           <router-link :to="button.url" v-if="button.type=='link'" class="btn btn-primary">{{ button.title }}</router-link>
+          </template>
+        </div>
+        <div v-else>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>

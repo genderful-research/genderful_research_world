@@ -5,12 +5,31 @@ import CardLinks from "../components/CardLinks.vue";
 import {defineProps, toRefs, onUpdated} from "vue"
 import Resources from '../components/Resources.vue';
 import { useRouter } from 'vue-router'
+import Modal1 from '../components/Modal.vue';
+import { Modal } from 'bootstrap'
+import { onMounted } from 'vue'
+import { useStore } from 'vuex'
+
+const store = useStore()
+let aModal = null
+onMounted(() => {
+  aModal =  new Modal(document.getElementById('modal'), {})
+  if(! store.getters.viewed_quiz){
+    aModal.show()
+    store.commit("setQuizViewed")
+  }
+  
+})
 
 const router = useRouter()
 const props = defineProps({
   road: String,
   location: String,
 })
+router.afterEach(() => {
+  aModal.hide()
+})
+
 const { road, location } = toRefs(props);
 const updateLocation = () => {
   if (road.value && !location.value) {
@@ -51,4 +70,5 @@ const buttons = [
       </div>
     </div>
   </div>
+  <Modal1 :content="content.quiz_teaser_popup"/>
 </template>
