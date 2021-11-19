@@ -111,12 +111,22 @@ const yesno = [
             <div v-else-if="getScore(section) > 50" class="alert alert-warning">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.average }}</p>
+                <div v-if="section === 'definitions'">
                 <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+                </div>
+                <div v-else>
+                <router-link class="btn btn-secondary" to="/">Go to map</router-link>
+                </div>
             </div>
             <div v-else class="alert alert-danger">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.bad }}</p>
+                <div v-if="section === 'definitions'">
                 <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+                </div>
+                <div v-else>
+                <router-link class="btn btn-secondary" to="/">Go to map</router-link>
+                </div>
             </div>
     </div>
 </template>
