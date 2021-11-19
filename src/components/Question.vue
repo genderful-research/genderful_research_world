@@ -101,7 +101,7 @@ const yesno = [
             <div v-if="getScore(section) > 75" class="alert alert-success">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.good }}</p>
-                <div v-if="section === 'definitions'>
+                <div v-if="section === 'definitions'">
                 <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
                 </div>
                 <div v-else>
