@@ -39,7 +39,6 @@ const yesno = [
 </script>
 
 <template>
-    <h5>{{ title }}</h5>
     <div v-if="item">
         <div class="card" style="max-width: 40rem;" >
             <div class="card-header">
@@ -99,6 +98,7 @@ const yesno = [
         </div>
     </div>
     <div v-else>
+            {{section}}
             <div v-if="getScore(section) > 75" class="alert alert-success">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.good }}</p>
