@@ -10,7 +10,11 @@ home:
 explanation_popup:
   title: Welcome to the Genderful Research World.
   body: |
-    Welcome fellow health researcher. If you are joining the GRW feasbility study, please click here [--> button to the informed consent form + navigation instructions/information for the participants](https://google.com). If you just want to have sneak peek at the website, click on 'close' below and follow the research road on the map. You can enter the websurvey at any stage of the platform (but preferably at the end of their visit) by clicking on the backpack-icon, which can be found at each page. Enjoy your hike through the Genderful Research World!
+    Welcome fellow health researcher. If you are joining the GRW feasbility study, please click here [--> button to the informed consent form + navigation instructions/information for the participants](https://google.com). 
+    
+    If you just want to have sneak peek at the website, click on 'close' below and follow the research road on the map. You can enter the websurvey at any stage of the platform (but preferably at the end of their visit) by clicking on the backpack-icon, which can be found at each page. 
+    
+    Enjoy your hike through the Genderful Research World!
   buttons:
     - title: Continue
       type: close
