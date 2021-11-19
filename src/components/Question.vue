@@ -101,7 +101,7 @@ const yesno = [
             <div v-if="getScore(section) > 75" class="alert alert-success">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.good }}</p>
-                <router-link to="/introduction">Go to introduction</router-link>
+                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
             </div>
             <div v-else-if="getScore(section) > 50" class="alert alert-warning">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
@@ -111,7 +111,7 @@ const yesno = [
             <div v-else class="alert alert-danger">
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.bad }}</p>
-                <router-link to="/introduction">Go to introduction</router-link>
+                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
             </div>
     </div>
 </template>
