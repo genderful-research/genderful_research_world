@@ -8,15 +8,17 @@ home:
   intro_body: |
     Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research. 
 explanation_popup:
-  title: Welcome to the Genderful Research World.
+  title: Welcome to the Genderful Research World
   body: |
-    Welcome fellow health researcher. If you are joining the GRW feasbility study, please click here [Informed consent & pilot websurvey](https://www.formdesk.com/vuamsterdam/GRWevaluation). If you just want to have sneak peek at the website, click on 'continue' below and follow the research road on the map. 
+    Welcome fellow health researcher, please journey through the Genderful Research World using the landscape map.
     
-    You can enter the websurvey at any stage of the platform (but preferably at the end of their visit) by clicking on the backpack-icon, which can be found at each page.
+    If you are joining the GRW feasbility study, click on 'continue' below and follow the research road on the map. 
+    
+    You can enter the informed consent and the websurvey at any stage of the platform (but preferably at the end of their visit) by clicking on the backpack-icon, which can be found at each page.
     
     Enjoy your journey through the Genderful Research World!
   buttons:
-    - title: Continue
+    - title: Go to GRW map
       type: close
 quiz_teaser_popup:
   title: Take a quiz
