@@ -115,7 +115,7 @@ const yesno = [
                 <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
                 </div>
                 <div v-else>
-                <router-link class="btn btn-secondary" to="/">Go to map</router-link>
+                <router-link class="btn btn-secondary" to="/definition-door">Go to Definition door</router-link>
                 </div>
             </div>
             <div v-else class="alert alert-danger">
@@ -125,7 +125,7 @@ const yesno = [
                 <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
                 </div>
                 <div v-else>
-                <router-link class="btn btn-secondary" to="/">Go to map</router-link>
+                <router-link class="btn btn-secondary" to="/definition-door">Go to Definition door</router-link>
                 </div>
             </div>
     </div>
