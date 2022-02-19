@@ -28,7 +28,7 @@ onMounted(() => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <router-link class="nav-link" to="/introduction">Introduction</router-link>
+            <router-link class="nav-link" to="/terms_and_definitions">Terms &amp; Definitions</router-link>
         </li>
         <li class="nav-item">
             <router-link class="nav-link" to="/quiz">{{ content.navigation.quiz }}</router-link>

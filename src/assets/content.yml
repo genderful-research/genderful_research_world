@@ -21,8 +21,8 @@ quiz_results:
     good: Basically a pro, want to learn more, check the genderful resources. 
     average: Good job so far, if you want to become a pro, check the genderful resources.
     bad: You could improve your knowledge on sex and gender, check the genderful resources. 
-introduction:
-  title: Introduction and terminology
+terms_and_definitions:
+  title: Terms & Definitions
   body: The terms "sex" and "gender" are used in many different ways in the scientific literature, and are often (incorrectly) used interchangeably. These resources provide comprehensive definitions of each term, and why these constructs are important to incorporate into your research.
    
    

@@ -9,13 +9,13 @@ const routes = [
     component: Home
   },
   {
-    path: '/introduction',
-    name: 'Introduction',
+    path: '/terms_and_definitions',
+    name: 'Terms & Definitions',
     component: () => import('../views/InfoResource.vue'),
     props: {
-      title: content.introduction.title,
-      content: content.introduction.body,
-      phase: "introduction",
+      title: content.terms_and_definitions.title,
+      content: content.terms_and_definitions.body,
+      phase: "terms_and_definitions",
     }
   },
   {
