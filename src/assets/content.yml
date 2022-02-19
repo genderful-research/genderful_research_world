@@ -6,25 +6,7 @@ home:
   title: Genderful Research World
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
-    Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research. 
-explanation_popup:
-  title: Welcome to the Genderful Research World
-  body: |
-    Welcome fellow health researcher, 
-    
-    The Genderful Research World (GRW) is an interactive map for you to explore resources for sex- and gender sensitive health research. 
-    
-    Click on the GRW map button below, have a look at the map and start your journey by going to the **“Quiz”** tab. After filling in the "Quiz", we invite you to navigate through the GRW via the **"Research Road"** tab or by clicking any research stage on the map. 
-    
-    *Have a look at what research resources are most relevant to you and let us know what you think!*  
-    
-    
-    We kindly ask you to share your feedback with us by filling in the **"Feasibility Study"** at the end of your visit. You can go to the survey by clicking on the backpack-icon, which can be found at the bottom of any page.
-
-    Enjoy your journey through the Genderful Research World!
-  buttons:
-    - title: Go to GRW map
-      type: close
+    Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research.
 quiz_teaser_popup:
   title: Take a quiz
   body: |
@@ -103,17 +85,6 @@ about:
     - **Lena D. Sialino** -  PhD researcher in health sciences at the Vrije Universiteit Amsterdam & National Institute for Public Health and the Environment, in Amsterdam, Netherlands.
     - **Jasmijn Sleutjes** - resident and clinical researcher, finalizing her doctoral degree at the Department of Gastroenterology and Hepatology, Erasmus MC, in Rotterdam, Netherlands.
     - **Natália Valdrighi** - biomedical scientist pursuing her doctoral degree at the Experimental Rheumatology Department, Radboudumc, in Nijmegen, Netherlands.
-feasibility_study:
-  title: Feasibility study
-  body: |
-    Thank you for participating in the feasibility study regarding the development of the Genderful Research World platform. 
-    
-    With your evaluation we are able to assess the applicability, usability and desirability of our platform, and improve it to the needs for all health researchers interested in the integration of sex and gender in research. Participation is voluntary and data will be processed anonymized. It will take approximately 10 minutes to fill in the evaluation websurvey. 
-    
-    Click on this link to start the websurvey: [Feasibility study](https://www.formdesk.com/vuamsterdam/GRWevaluation)
-    
-  column_2: |
-    ### Help us spread the word by sharing the GRW platform!
 funded_by:
   title: Funded by
   body: ZonMw (Netherlands) and CIHR-IGH (Canada) 

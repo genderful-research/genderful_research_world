@@ -3,21 +3,6 @@ import content from '@/assets/content.yml';
 import marked from "marked"
 import FundedBy from '../components/FundedBy.vue';
 import Map from '../components/Map.vue';
-import Modal1 from '../components/Modal.vue';
-import { Modal } from 'bootstrap'
-import { onMounted } from 'vue'
-import { useStore } from 'vuex'
-
-const store = useStore()
-
-onMounted(() => {
-  const aModal =  new Modal(document.getElementById('modal'), {})
-  if(! store.getters.viewed_explanation){
-    aModal.show()
-    store.commit("setExplanationViewed")
-  }
-  
-})
 </script>
 
 <template>
@@ -34,5 +19,4 @@ onMounted(() => {
        </div>
     </div>
   </div>
-  <Modal1 :content="content.explanation_popup"/>
 </template>
