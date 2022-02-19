@@ -17,6 +17,9 @@
           {content: content.biomedical, url: "/research/biomedical"},
           {content: content.health, url: "/research/health"},
       ],
+      [
+          {content: content.terms_and_definitions, url: "/terms-and-definitions"},
+      ],
   ]
 
 </script>
