@@ -1,12 +1,12 @@
 phase,title,url,source,description,biomedical,health,in_vivo,in_vitro,type
-terms_and_definitions,What is gender? What is sex?,https://cihr-irsc.gc.ca/e/48642.html,CIHR,Terminology,x,x,,,infographic
-terms_and_definitions,Terminology,https://genderedinnovations.stanford.edu/terms.html,GI,Terminology,x,x,,,factsheet
-terms_and_definitions,Learning about Sex and Gender,https://cihr-irsc.gc.ca/e/50003.html,CIHR,Describes why integrating sex and gender in health research is important,x,X,,,video
-terms_and_definitions,Introduction to Sex and Gender Considerations in Clinical and Epidemiological Research,https://cihr-irsc.gc.ca/lms/e/cihrpolicysexgenderhumanparticipants/,CIHR,General terms_and_definitions to sex and gender in clinical and epidemiological research at all stages of the research process + Quizes,,x,,,course
-terms_and_definitions,Evolutionary biology: Gender Aware Guidelines,https://genderedinnovations.stanford.edu/methods/evobio.html,GI,Guideline for dealing with gender-biased assumption on biomedical research,x,X,,,guideline
-terms_and_definitions,Course 1: Sex and gender in biomedical research,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 1: Sex and gender in biomedical research,,x,,,course
-terms_and_definitions,Course 2: Sex and gender in primary data collection with human participants,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 2: Sex and gender in primary data collection with human participants,,x,,,course
-terms_and_definitions,Course 3: Sex and gender in the analysis of secondary data from human participants,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 3: Sex and gender in the analysis of secondary data from human participants,,x,,,course
+terms-and-definitions,What is gender? What is sex?,https://cihr-irsc.gc.ca/e/48642.html,CIHR,Terminology,x,x,,,infographic
+terms-and-definitions,Terminology,https://genderedinnovations.stanford.edu/terms.html,GI,Terminology,x,x,,,factsheet
+terms-and-definitions,Learning about Sex and Gender,https://cihr-irsc.gc.ca/e/50003.html,CIHR,Describes why integrating sex and gender in health research is important,x,X,,,video
+terms-and-definitions,Introduction to Sex and Gender Considerations in Clinical and Epidemiological Research,https://cihr-irsc.gc.ca/lms/e/cihrpolicysexgenderhumanparticipants/,CIHR,General terms-and-definitions to sex and gender in clinical and epidemiological research at all stages of the research process + Quizes,,x,,,course
+terms-and-definitions,Evolutionary biology: Gender Aware Guidelines,https://genderedinnovations.stanford.edu/methods/evobio.html,GI,Guideline for dealing with gender-biased assumption on biomedical research,x,X,,,guideline
+terms-and-definitions,Course 1: Sex and gender in biomedical research,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 1: Sex and gender in biomedical research,,x,,,course
+terms-and-definitions,Course 2: Sex and gender in primary data collection with human participants,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 2: Sex and gender in primary data collection with human participants,,x,,,course
+terms-and-definitions,Course 3: Sex and gender in the analysis of secondary data from human participants,https://cihr-irsc.gc.ca/e/49347.html,CIHR,Course 3: Sex and gender in the analysis of secondary data from human participants,,x,,,course
 research-question,The ethical imperative of sex and gender considerations in health research,https://cihr-irsc.gc.ca/e/49932.html,CIHR,Overview of the aspects of research ethics that relate to sex and gender considerations,x,x,,,guideline
 research-question,Formulating Research Questions,https://genderedinnovations.stanford.edu/methods/questions.html,GI,Formulating Research Questions,x,x,,,guideline
 research-question,Key considerations for the appropriate integration of sex as a biological variable,https://cihr-irsc.gc.ca/e/documents/sgba_criteria_sex-en.pdf,CIHR,Key considerations for the appropriate integration of sex as a biological variable,x,x,,,factsheet

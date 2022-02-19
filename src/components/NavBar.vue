@@ -31,7 +31,7 @@ onMounted(() => {
             <router-link class="nav-link" to="/definition-door">Definition Door</router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" to="/terms_and_definitions">Terms &amp; Definitions</router-link>
+            <router-link class="nav-link" to="/terms-and-definitions">Terms &amp; Definitions</router-link>
         </li>
         <li class="nav-item">
             <router-link class="nav-link" to="/quiz">{{ content.navigation.quiz }}</router-link>
