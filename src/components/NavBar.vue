@@ -37,7 +37,7 @@ onMounted(() => {
             <router-link class="nav-link" to="/quiz">{{ content.navigation.quiz }}</router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" to="/research">Research road</router-link>
+            <router-link class="nav-link" to="/research">Research roads</router-link>
         </li>
         <li class="nav-item">
             <router-link class="nav-link" to="/funding">Funding</router-link>
