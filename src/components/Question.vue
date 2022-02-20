@@ -102,7 +102,7 @@ const yesno = [
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.good }}</p>
                 <div v-if="section === 'definitions'">
-                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+                <router-link class="btn btn-secondary" to="/terms-and-definitions">Go to Terms &amp; Definitions</router-link>
                 </div>
                 <div v-else>
                 <router-link class="btn btn-secondary" to="/">Go to map</router-link>
@@ -112,7 +112,7 @@ const yesno = [
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.average }}</p>
                 <div v-if="section === 'definitions'">
-                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+                <router-link class="btn btn-secondary" to="/terms-and-definitions">Go to Terms &amp; Definitions</router-link>
                 </div>
                 <div v-else>
                 <router-link class="btn btn-secondary" to="/definition-door">Go to Definition door</router-link>
@@ -122,7 +122,7 @@ const yesno = [
                 <h4 class="alert-heading">Score: {{ getScore(section) }}%</h4>
                 <p>{{ content.quiz_results.bad }}</p>
                 <div v-if="section === 'definitions'">
-                <router-link class="btn btn-secondary" to="/introduction">Go to introduction</router-link>
+                <router-link class="btn btn-secondary" to="/terms-and-definitions">Go to Terms &amp; Definitions</router-link>
                 </div>
                 <div v-else>
                 <router-link class="btn btn-secondary" to="/definition-door">Go to Definition door</router-link>

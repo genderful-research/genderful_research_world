@@ -9,13 +9,13 @@ const routes = [
     component: Home
   },
   {
-    path: '/introduction',
-    name: 'Introduction',
+    path: '/terms-and-definitions',
+    name: 'Terms & Definitions',
     component: () => import('../views/InfoResource.vue'),
     props: {
-      title: content.introduction.title,
-      content: content.introduction.body,
-      phase: "introduction",
+      title: content.terms_and_definitions.title,
+      content: content.terms_and_definitions.body,
+      phase: "terms-and-definitions",
     }
   },
   {
@@ -61,13 +61,6 @@ const routes = [
     component: () => import('../views/Default.vue'),
     props: {
       content: content.about
-    }
-  },  
-  {
-    path: '/feasibility',
-    component: () => import('../views/Default.vue'),
-    props: {
-      content: content.feasibility_study
     }
   },  
   {

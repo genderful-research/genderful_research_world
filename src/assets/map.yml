@@ -80,7 +80,7 @@
   
 - title: Help with writing?
   body: Learn about the definitions of sex and gender to use in your writing.
-  href: "/introduction"
+  href: "/terms-and-definitions"
   left: 90.16
   top: 77.91
   width: 5.75
@@ -88,8 +88,8 @@
   
 - title: You have reached the Genderful Research World!
   body: By using the sex and gender resources and integrating sex and gender during your research, you are helping us to build a better, more inclusive Research World.
-    As you reached the endpoint, click here for reach the websurvey.
-  href: "/feasibility"
+    As you reached the endpoint, click here to go back home.
+  href: "/"
   left: 60.99
   top: 70.68
   width: 11.91
