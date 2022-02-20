@@ -39,36 +39,36 @@ relevance:
     - id: "relevance-q-1"
       question: Taking a sex-specific approach leads to discrimination
       correct_answer: false
-      explanation: This is false. By accounting for sex in biomedical and health research, scientists are contributing for a more equal/balanced healthcare, also improving the rigor, reproducibility and generalization of science. Due to equity based health care (recognizing that not everybody benefits from the same care) we will avoid discrimination.
+      explanation: This is false. By accounting for sex in biomedical and health research, scientists are contributing for a more equal/balanced healthcare, also improving the rigor, reproducibility and generalization of science. Taking an approach of equity-based health care (recognizing that not everybody benefits from the same care) will help avoid discrimination.
     - id: "relevance-q-2"
       question: Performing sex-specific research costs more money
       correct_answer: false
-      explanation: This is false. In the short term, it may seems more costly and it can be, however, not accounting for sex differences along the different research phases will lead to a failure in efficacy of treatment/healthcare in the long term, which costs more money. To illustrate, performing sex-specific analysis on the side effects of the COVID vaccination during the trails could have avoided the surprise of side effects among women compared to men. The latter cost much more money.
+      explanation: This is false. In the short term, it may be more costly, however, not accounting for sex differences along the different research phases can lead to a failure in the efficacy of treatment/healthcare in the long term, which costs more money. To illustrate, performing sex-specific analysis on the side effects of the COVID vaccination during the clinical trials stage could have avoided the surprise of increased side effects among women compared to men. The latter costs much more money. 
     - id: "relevance-q-3"
-      question: Gender concept as in humans do not apply directly to animals
+      question: Gender does not apply directly to animals 
       correct_answer: true
-      explanation: This is true. Gender is defined as socially constructed roles, behaviours, expressions and identities from girls, women, boys, men and gender-diverse people. This definition does not directly apply to animals since they do not have such a societal environment as humans do. .
+      explanation: This is true. Gender is defined as socially constructed roles, behaviours, expressions and identities from girls, women, boys, men and gender-diverse people. This definition does not directly apply to animals since they do not have such a societal environment as humans do. 
     - id: "relevance-q-4"
-      question: Female inclusion in animal experiments increase variability
+      question: Female inclusion in animal experiments increase variability 
       correct_answer: false
-      explanation: This is false. That was a misconception common across the scientific community, which was based on the sex hormone fluctuation (Prendergast, Onishi et al. 2014, Becker, Prendergast et al. 2016, Beery 2018). It turns out males tend to have higher variation, which can be linked to external stressors related to the expression of dominance and power dynamics inherent to males.  
+      explanation: This is false. That was a misconception common across the scientific community, which was based on the hypothesis that there would be greater sex hormone fluctuation in females due to the estrous cycle (Prendergast, Onishi et al. 2014, Becker, Prendergast et al. 2016, Beery 2018). It turns out males tend to have higher variation, which can be linked to external stressors related to the expression of dominance and power dynamics inherent to males.   
     - id: "relevance-q-5"
-      question: Sex awareness is unimportant to in vitro studies
+      question: Sex awareness is unimportant to in vitro studies 
       correct_answer: false
-      explanation: This is false. Depending on what cell types used for in vitro studies (primary cells, cell lines), different details might need to be taken in consideration. Until now, there has been an overlook on the sex of cells being used. Resources on Analyzing Sex in Tissues and Cells can be found here [Analyzing Sex in Tissues and Cells](https://genderedinnovations.stanford.edu/methods/tissues.html).
+      explanation: This is false. Depending on what cell types used for in vitro studies (primary cells, cell lines), different details might need to be taken in consideration. Until recently, the importance of knowing the sex of cells being used has been overlooked. Resources on Analyzing Sex in Tissues and Cells can be found here [Analyzing Sex in Tissues and Cells](https://genderedinnovations.stanford.edu/methods/tissues.html). 
     - id: "relevance-q-6"
-      question: Excluding women from clinical studies is always necessary to protect their fertility
+      question: Excluding women from clinical studies is always necessary to protect their fertility 
       correct_answer: false
-      explanation: This is false. This was a common understanding for clinical studies in the past decades. However, by excluding women from clinical studies there is an increased risk on fertility since these side effects will not be discovered during clinical trials before going to the market. 
+      explanation: This is false. This was a common misunderstanding for clinical studies in the past decades. However, by excluding women from clinical studies there is an increased risk on fertility since these side effects will not be discovered during clinical trials before going to the market. Additionally, intentionally excluding women from clinical trials without allowing them the opportunity to make an informed decision themselves does not respect the autonomy of women to make decisions regarding their own bodies. 
     - id: "relevance-q-7"
       question: Reporting sex differences should only be mentioned when significant
       correct_answer: false
-      explanation: This is false. Mentioning that no sex differences were observed is also relevant, as it will prevent future studies to investigate these sex differences. 
+      explanation: This is false. Mentioning that no sex differences were observed is also relevant, as it will inform whether or not future studies are needed to investigate sex differences.  
     - id: "relevance-q-8"
-      question: Patient gender influences the treatment efficiency
+      question: Patient gender influences the treatment efficiency 
       correct_answer: true
-      explanation: This is true. The patient's gender influences treatment adherence and side effects due to motivational and stress differences. 
+      explanation: This is true. Gender can influence treatment adherence and side effects due to differences in roles, stressors, help-seeking behaviours, supports, etc. 
     - id: "relevance-q-9"
-      question: Healthcare professional gender does not influence patient care
+      question: Healthcare professional gender does not influence patient care 
       correct_answer: false
-      explanation: This is false. The gender of the healthcare profession can have a great influence on patient care in multiple dimensions, among which how the patient perceives care, the type of complaints shared with professionals (https://www.ntvg.nl/artikelen/mannelijke-vrouwelijke-huisarts/abstract) and even delay visit to the doctor because he/she is of other sex.
+      explanation: This is false. The gender of the healthcare profession can have a great influence on patient care in multiple dimensions, including how the patient perceives care, the type of complaints shared with professionals (https://www.ntvg.nl/artikelen/mannelijke-vrouwelijke-huisarts/abstract), diagnostic decision-making, and willingness of patients to see their provider for certain concerns.
