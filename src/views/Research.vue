@@ -51,7 +51,7 @@ const buttons = [
 </script>
 
 <template>
-  <div class="container py-4">
+  <div class="container-fluid py-4">
     <div v-if="road" class="row">
       <div class="col-md-6">
         <h1>{{ content[road].title }}</h1>
@@ -72,3 +72,10 @@ const buttons = [
   </div>
   <Modal1 :content="content.quiz_teaser_popup"/>
 </template>
+
+<style scoped>
+div.container-fluid{
+  background: url("~@/assets/map_backdrop.svg") repeat-y;
+  background-size: cover;
+}
+</style>
