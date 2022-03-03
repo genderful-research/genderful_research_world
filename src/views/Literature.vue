@@ -11,7 +11,8 @@
         if (searchQuery.value) {
             let query = new RegExp(searchQuery.value, "i")
             return resource['description'].search(query) !== -1 ||
-                    resource['title'].search(query) !== -1
+                    resource['title'].search(query) !== -1 ||
+                    resource['type'].search(query) !== -1
         }
         return true
     }))
@@ -27,8 +28,8 @@
         <div class="col-md-6 content">
             <h3>{{content.literature.title}}</h3>
             <div v-html="marked(content.literature.body)"/>
-            <div class="input-group">
-                <input type="text" v-model="searchQuery" class="form-control" placeholder="Search...">
+            <div class="input-group mb-2">
+                <input type="text" v-model="searchQuery" class="form-control form-control-lg" placeholder="Search...">
                 <button type="button" @click="resetQuery" class="btn bg-transparent" style="margin-left: -40px; z-index: 100;">
                 X
                 </button>
