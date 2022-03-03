@@ -1,16 +1,19 @@
 <script setup>
     import resources from '@/assets/resources.csv'
     import content from '@/assets/content.yml'
-    import {computed, reactive} from 'vue'
+    import {computed, ref} from 'vue'
     import marked from "marked"
 
-    const filter = reactive({road:'all', phase: 'all'})
+    const searchQuery = ref()
+    const resetQuery = () => { searchQuery.value = ""}
     const filteredResults = computed(() => resources.filter(resource => {
-        if (filter.road !== 'all') {
-            return resource['phase'] === filter.phase && resource[filter.road]
+
+        if (searchQuery.value) {
+            let query = new RegExp(searchQuery.value, "i")
+            return resource['description'].search(query) !== -1 ||
+                    resource['title'].search(query) !== -1
         }
         return true
-        // return resource['phase'] === filter.phase
     }))
 
     const getIcon = (resource) => content.resource_types[resource.type] ? content.resource_types[resource.type].icon : "bi-question-diamond"
@@ -24,6 +27,12 @@
         <div class="col-md-6 content">
             <h3>{{content.literature.title}}</h3>
             <div v-html="marked(content.literature.body)"/>
+            <div class="input-group">
+                <input type="text" v-model="searchQuery" class="form-control" placeholder="Search...">
+                <button type="button" @click="resetQuery" class="btn bg-transparent" style="margin-left: -40px; z-index: 100;">
+                X
+                </button>
+            </div>
         </div>
          <div class="col-md-6">
             <div class="accordion" id="accordionExample">
@@ -77,9 +86,6 @@
 <style scoped>
 div.container-fluid {
     background-color: #008EB0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%233f9e28' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2324aa57' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233f9e28' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23229c4a' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%233f9e28' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23208e3d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%233f9e28' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%231d8131' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%233f9e28' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23197424' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233f9e28' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23146718' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
 }
 div.content, div.content h3
 {
