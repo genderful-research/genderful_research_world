@@ -9,7 +9,7 @@ defineProps({
 })
 </script>
 <template>
-  <div class="container py-4">
+  <div class="container-fluid py-4">
     <div class="row">
       <div class="col-md-6" >
           <h1>{{ title }}</h1>
@@ -21,3 +21,9 @@ defineProps({
     </div>
   </div>
 </template>
+
+<style scoped>
+div.container-fluid{
+  background: #a9d18e;
+}
+</style>

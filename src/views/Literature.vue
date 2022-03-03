@@ -19,9 +19,9 @@
 </script>
 
 <template>
-<div class="container py-4">
+<div class="container-fluid py-4">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 content">
             <h3>{{content.literature.title}}</h3>
             <div v-html="marked(content.literature.body)"/>
         </div>
@@ -73,3 +73,16 @@
 </div>
 
 </template>
+
+<style scoped>
+div.container-fluid {
+    background-color: #008EB0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%233f9e28' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2324aa57' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233f9e28' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23229c4a' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%233f9e28' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23208e3d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%233f9e28' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%231d8131' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%233f9e28' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23197424' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233f9e28' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23146718' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.content, div.content h3
+{
+    color: whitesmoke;
+}
+</style>

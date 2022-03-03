@@ -75,7 +75,16 @@ const buttons = [
 
 <style scoped>
 div.container-fluid{
-  background: url("~@/assets/map_backdrop.svg") repeat-y;
-  background-size: cover;
+  background: #a9d18e;
+}
+</style>
+
+<style>
+div.card-header{
+  background-color: #548235;
+  color: white;
+}
+div.card{
+  border-color: #548235;
 }
 </style>

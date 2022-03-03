@@ -10,7 +10,7 @@ const resetQuiz = () => store.commit('resetQuiz')
 </script>
 
 <template>
-  <div class="container py-4">
+  <div class="container-fluid py-4">
     <div class="row justify-content-md-center">
       <div class="col-md-6">
         <h1>Quiz
@@ -25,3 +25,9 @@ const resetQuiz = () => store.commit('resetQuiz')
     </div>
   </div>
 </template>
+
+<style scoped>
+div.container-fluid{
+  background: #a9d18e;
+}
+</style>
