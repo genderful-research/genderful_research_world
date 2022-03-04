@@ -10,7 +10,11 @@ defineProps({
 <template>
     <ul class="timeline">
         <li v-for="phase in content.phases" :key="phase.id" :class="{active: phase.id == location}">
-            <router-link :to="'/research/'+road+'/'+phase.id">{{ phase.name }}</router-link>
+            <router-link 
+                class="btn btn-large btn-secondary"
+                :class="{active: phase.id == location}"
+                :to="'/research/'+road+'/'+phase.id">{{ phase.name }}
+            </router-link>
             <p>{{ phase.summary }}</p>
         </li>
     </ul>
@@ -23,7 +27,7 @@ ul.timeline {
 }
 ul.timeline:before {
     content: ' ';
-    background: #d4d9df;
+    background: #548235;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -41,13 +45,18 @@ ul.timeline > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid #548235;
     left: 20px;
     width: 20px;
     height: 20px;
     z-index: 400;
+    margin-top: 8px;
 }
 ul.timeline > li.active:before {
-    background: #22c0e8;
+    background: #548235;
+}
+.btn.active{
+        background: #548235;
+        color: white;
 }
 </style>
