@@ -78,13 +78,3 @@ div.container-fluid{
   background: #a9d18e;
 }
 </style>
-
-<style>
-div.card-header{
-  background-color: #548235;
-  color: white;
-}
-div.card{
-  border-color: #548235;
-}
-</style>

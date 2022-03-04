@@ -25,3 +25,13 @@ import Footer from './components/Footer.vue';
   <router-view/>
   <Footer/>
 </template>
+
+<style>
+  div.card-header{
+    background-color: #548235;
+    color: white;
+  }
+  div.card{
+    border-color: #548235;
+  }
+</style>
