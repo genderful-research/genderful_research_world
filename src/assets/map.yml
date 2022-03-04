@@ -61,7 +61,15 @@
   top: 6.15
   width: 7.22
   height: 9.26
-  
+
+- title: Quiz
+  body: Take the quiz
+  href: /quiz
+  left: 56.03
+  top: 12.57
+  width: 8.28
+  height: 12.16
+
 - title: About
   body: About the project and us
   href: /about
