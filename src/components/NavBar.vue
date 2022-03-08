@@ -38,20 +38,32 @@ onMounted(() => {
         <li class="nav-item">
             <router-link class="nav-link" to="/research">Research roads</router-link>
         </li>
-        <li class="nav-item">
-            <router-link class="nav-link" to="/funding">Funding</router-link>
-        </li>
-        <li class="nav-item">
-            <router-link class="nav-link" to="/assembling-teams">Assembling teams</router-link>
-        </li>
-        <li class="nav-item">
-            <router-link class="nav-link" to="/case_studies">Case studies</router-link>
-        </li>
-        <li class="nav-item">
-            <router-link class="nav-link" to="/literature">Literature</router-link>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Other
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <router-link class="nav-link" to="/funding">Funding</router-link>
+            </li>
+            <li>
+                <router-link class="nav-link" to="/assembling-teams">Assembling teams</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/case_studies">Case studies</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/literature">Literature</router-link>
+            </li>
+          </ul>
         </li>
         <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
+        </li>
+        <li class="nav-item">
+            <router-link class="nav-link" to="/">
+             <i class="bi bi-map"></i> Back to the map
+            </router-link>
         </li>
       </ul>
     </div>
