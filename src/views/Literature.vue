@@ -31,7 +31,7 @@
             <div class="input-group mb-2">
                 <input type="text" v-model="searchQuery" class="form-control form-control-lg" placeholder="Search...">
                 <button type="button" @click="resetQuery" class="btn bg-transparent" style="margin-left: -40px; z-index: 100;">
-                X
+                <i class="bi bi-x"></i>
                 </button>
             </div>
         </div>
