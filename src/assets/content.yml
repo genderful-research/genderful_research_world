@@ -7,6 +7,10 @@ home:
   subtitle: The interactive sex and gender resource platform for biomedical and health scientists.
   intro_body: |
     Genderful Research World (GRW) is a platform made for supporting scientists in health who are looking for resources on how to integrate sex and gender into their own research.
+quiz:
+  title: Quiz
+  info: 
+  body: This quiz is developed to trigger your curiosity on the topics of sex and gender in medicine and the answers provided are formulated to provoke reflections. The quiz does not aim to capture all the complexities and nuances that are involved in the studying and answering these questions. Enjoy!
 quiz_teaser_popup:
   title: Take a quiz
   body: |
@@ -23,7 +27,7 @@ quiz_results:
     bad: You could improve your knowledge on sex and gender, check the genderful resources. 
 terms_and_definitions:
   title: Terms & Definitions
-  info: Something introductory about T&D
+  info: This section reviews information regarding the comprehensive definitions of the term “sex” and “gender” and why these constructs are important to incorporate into your research.
   body: The terms "sex" and "gender" are used in many different ways in the scientific literature, and are often (incorrectly) used interchangeably. These resources provide comprehensive definitions of each term, and why these constructs are important to incorporate into your research.
    
    
