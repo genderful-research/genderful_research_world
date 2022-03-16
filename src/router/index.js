@@ -68,6 +68,13 @@ const routes = [
     }
   },  
   {
+    path: '/instructions',
+    component: () => import('../views/Default.vue'),
+    props: {
+      content: content.instructions
+    }
+  },  
+  {
     path: '/definition-door',
     component: () => import('../views/DefinitionDoor.vue'),
     props: {
