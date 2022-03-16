@@ -21,7 +21,11 @@ const routes = [
   {
     path: '/quiz',
     name: 'Quiz',
-    component: () => import('../views/Quiz.vue')
+    component: () => import('../views/Quiz.vue'),
+    props: {
+      title: content.quiz.title,
+      content: content.quiz.body,
+    }
   },
   {
     path: '/funding',
