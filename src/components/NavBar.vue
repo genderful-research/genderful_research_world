@@ -61,6 +61,9 @@ onMounted(() => {
             <router-link class="nav-link" to="/about">About</router-link>
         </li>
         <li class="nav-item">
+            <router-link class="nav-link" to="/instructions">Instructions</router-link>
+        </li>
+        <li class="nav-item">
             <router-link class="nav-link" to="/">
              <i class="bi bi-map"></i> Back to the map
             </router-link>
